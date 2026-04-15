@@ -1,0 +1,384 @@
+{
+   "pools": [
+      {
+         "rolls": {
+            "min": 0,
+            "max": 1
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:backpack_orange_item",
+               "weight": 34,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+                                             "type": "item",
+               "name": "mbl_ts:plastic",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:wm_season_4",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:chickens_came_back_dvd",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:villagers_of_the_dead_dvd",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:mp3_player_black",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 1,
+            "max": 2
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:vector_controller_blue",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:battery",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:glasses_sun_01",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:jumper_black_pattern",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:school_of_cobble_dvd",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+                              "type":"item",
+               "name":"mbl_ts:walkie_talkie",
+               "weight":5,
+               "functions":[
+                  {
+                     "function":"set_count",
+                     "count":{
+                        "min":0,
+                        "max":1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:pyjamas_top_pink",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+                                             "type": "item",
+               "name": "mbl_ts:titanium_scrap",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:shirt_yellow",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:racing_bottoms_blue",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:racing_bottoms_black",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:sports_tennis_socks_trainers_red",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:book",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:iron_nugget",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:yellow_bundle",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:cyan_bundle",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:magenta_bundle",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

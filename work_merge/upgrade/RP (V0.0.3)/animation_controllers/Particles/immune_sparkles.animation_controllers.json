@@ -1,0 +1,24 @@
+{
+   "format_version":"1.10.0",
+   "animation_controllers":{
+      "controller.animation.immune_sparkles":{
+         "states":{
+            "default":{
+               "transitions":[
+                  {
+                     "immune":"query.is_sheared"
+                  }
+               ]
+            },
+            "immune":{
+               "particle_effects":[
+                  {
+                     "effect":"immune",
+                     "locator":"immune"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

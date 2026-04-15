@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "mbl_ts:caravan_meadow_structure"
+    },
+    "places_block": "mbl_ts:structure_caravan_meadow",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": false,
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:sunflower",
+      "minecraft:pink_petals",
+      "minecraft:poppy",
+      "minecraft:cornflower",
+      "minecraft:grass_block",
+      "minecraft:dirt",
+      "minecraft:water"
+    ]
+  }
+}

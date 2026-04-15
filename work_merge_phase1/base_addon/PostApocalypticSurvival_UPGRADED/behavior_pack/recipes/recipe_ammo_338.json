@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pas:recipe_ammo_338"
+    },
+    "tags": ["crafting_table"],
+    "shape": [
+      "####",
+      "##GG",
+      "####"
+    ],
+    "priority": 0,
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "G": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "result": {
+      "item": "pas:ammo_338",
+      "count": 10
+    }
+  }
+}

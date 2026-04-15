@@ -1,0 +1,36 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:marble_creation_bench_recipe"
+      },
+      "tags": [
+         "crafting_table"
+      ],
+      "pattern": [
+         "CDC",
+         "AAA",
+         "AAA"
+      ],
+      "key": {
+         "A": {
+            "item": "minecraft:iron_block"
+         },
+         "D": {
+            "item": "mbl_ts:mega_marble"
+         },
+         "C": {
+            "item": "mbl_ts:marble"
+         }
+      },
+      "unlock": [
+         {
+                "item": "minecraft:iron_ingot"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:marble_creation_bench",
+         "count": 1
+      }
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "format_version":"1.10.0",
+   "animation_controllers":{
+      "controller.animation.human_survivor":{
+         "initial_state":"alive",
+         "states":{
+            "alive":{
+               "animations":[
+                  "look_at_target",
+                  {
+                     "idle":"query.modified_move_speed <= 0.1 && !query.is_saddled"
+                  }
+               ],
+               "blend_transition":0.5,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "walking":"query.modified_move_speed > 0.1 && !query.is_saddled"
+                  },
+                  {
+                     "corpse":"query.property('mbl_ts:state') == 'corpse'"
+                  }
+               ]
+            },
+            "walking":{
+               "animations":[
+                  "walking",
+                  "look_at_target"
+               ],
+               "blend_transition":0.5,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "alive":"query.modified_move_speed <= 0.1 && !query.is_saddled"
+                  },
+                  {
+                     "corpse":"query.property('mbl_ts:state') == 'corpse'"
+                  }
+               ]
+            },
+            "corpse":{
+               "animations":[
+                  "corpse"
+               ],
+               "blend_transition":0.1,
+               "blend_via_shortest_path":true
+            }
+         }
+      },
+      "controller.animation.human_survivor_corpse":{
+         "initial_state":"default",
+         "states":{
+            "default":{
+               "animations":[
+                  {
+                     "corpse_pose_0":"query.property('mbl_ts:corpse_pose') == 0"
+                  },
+                  {
+                     "corpse_pose_1":"query.property('mbl_ts:corpse_pose') == 1"
+                  },
+                  {
+                     "corpse_pose_2":"query.property('mbl_ts:corpse_pose') == 2"
+                  },
+                  {
+                     "corpse_pose_3":"query.property('mbl_ts:corpse_pose') == 3"
+                  }
+               ]
+            }
+         }
+      },
+      "controller.animation.human_attacking":{
+         "initial_state":"default",
+         "states":{
+            "default":{
+               "animations":[
+                  "look_at_target",
+                  {
+                     "idle":"query.modified_move_speed <= 0.1 && !query.is_saddled"
+                  }
+               ],
+               "blend_transition":1.0,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "attacking":"variable.attack_time > 0.1 && !query.is_saddled"
+                  }
+               ]
+            },
+            "attacking":{
+               "animations":[
+                  "attacking"
+               ],
+               "blend_transition":1.0,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "default":"variable.attack_time <= 0.1 && !query.is_saddled"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

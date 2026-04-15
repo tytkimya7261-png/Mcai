@@ -1,0 +1,520 @@
+{
+   "pools": [
+      {
+         "rolls": {
+            "min": 0,
+            "max": 1
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:canister",
+               "weight": 20,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:popso_max",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:freshers_orange",
+               "weight": 65,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:dirty_plastic",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:beef_jerky_spicy_open",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_oxtail_soup_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:beef_jerky_teriyaki_open",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:ramen_noodles_chicken_open",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:bottle_of_water_0",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:wm_season_5",
+               "weight": 20,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:wm_season_11",
+               "weight": 20,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:gamer_hoodie_red",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.6
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 1,
+            "max": 2
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:paper",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:dirty_plastic",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:bone",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 5
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:electrical_scrap",
+               "weight": 5,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_beans_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_beef_ravioli_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_chicken_soup_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:jumper_xmas",
+               "weight": 20,
+               "functions": [
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.6
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:racing_bottoms_white",
+               "weight": 20,
+               "functions": [
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.6
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_custard_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_macaroni_cheese_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_mushroom_soup_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:freshers_fruit_twist",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_spaghetti_hoops_open",
+               "weight": 70,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_tomato_soup_open",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_vegetable_soup_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:cherry_king_kola",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_carbonara_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_beef_stew_open",
+               "weight": 60,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_stewed_steak_open",
+               "weight": 80,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_chicken_curry",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:beef_jerky_original",
+               "weight": 20,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:wm_season_9",
+               "weight": 17,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:wm_season_10",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "type": "item",
+         "name": "mbl_ts:back_wheel",
+         "weight": 35,
+         "functions": [
+            {
+               "function": "set_count",
+               "count": {
+                  "min": 0,
+                  "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      }

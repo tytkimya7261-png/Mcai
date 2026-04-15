@@ -1,0 +1,19 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_brewing_mix": {
+      "description": {
+         "identifier": "mbl_ts:brew_zombie_vaccine"
+      },
+      "tags": [
+         "brewing_stand"
+      ],
+      "unlock": [
+         {
+            "item": "mbl_ts:vial_of_netherwart_solution"
+         }
+      ],
+      "input": "mbl_ts:bottle_of_zombie_goo",
+      "reagent": "mbl_ts:vial_of_netherwart_solution",
+      "output": "mbl_ts:zombie_vaccine"
+   }
+}

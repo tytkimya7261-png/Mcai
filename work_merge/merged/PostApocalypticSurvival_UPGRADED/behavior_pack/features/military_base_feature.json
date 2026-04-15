@@ -1,0 +1,13 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "pas:military_base_feature"
+    },
+    "features": [
+      [100, "pas:military_base_shell"],
+      [100, "pas:military_base_interior"],
+      [80, "pas:military_base_towers"]
+    ]
+  }
+}

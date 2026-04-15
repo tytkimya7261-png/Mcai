@@ -1,0 +1,61 @@
+{
+   "format_version": "1.8.0",
+   "render_controllers": {
+      "controller.render.sedan_car": {
+         "arrays": {
+            "textures": {
+               "Array.variants": [
+                  "Texture.default",
+               	"Texture.black",
+				      "Texture.blue",
+                  "Texture.brown",
+				      "Texture.cyan",
+                  "Texture.gray",
+				      "Texture.green",
+                  "Texture.light_blue",
+				      "Texture.light_gray",
+                  "Texture.lime",
+				      "Texture.magenta",
+                  "Texture.orange",
+				      "Texture.pink",
+                  "Texture.purple",
+				      "Texture.red",
+				      "Texture.yellow"
+               ]
+            }
+         },
+         "geometry": "Geometry.default",
+         "materials": [
+            {
+               "*": "Material.default"
+            }
+         ],
+         "textures": [
+            "Array.variants[query.variant]"
+         ],
+         "part_visibility": [
+            {
+               "pickup": "q.variant != 1000",
+               "body": "q.variant != 1000",
+               "door_0": "q.variant != 1000",
+               "door_1": "q.variant != 1000",
+               "door_2": "q.variant != 1000",
+               "door_3": "q.variant != 1000",
+               "hood": "query.property('mbl_ts:engine_type') <= 1",
+               "left_0": "query.property('mbl_ts:wheel_type') == 1",
+               "right_0": "query.property('mbl_ts:wheel_type') == 1",
+               "back_0": "query.property('mbl_ts:wheel_type') == 1",
+               "left_1": "query.property('mbl_ts:wheel_type') == 2",
+               "right_1": "query.property('mbl_ts:wheel_type') == 2",
+               "back_1": "query.property('mbl_ts:wheel_type') == 2",
+               "left_2": "query.property('mbl_ts:wheel_type') == 3",
+               "right_2": "query.property('mbl_ts:wheel_type') == 3",
+               "back_2": "query.property('mbl_ts:wheel_type') == 3",
+               "engine_1": "query.property('mbl_ts:engine_type') == 1",
+               "engine_2": "query.property('mbl_ts:engine_type') == 2",
+               "engine_3": "query.property('mbl_ts:engine_type') == 3"
+            }
+         ]
+      }
+   }
+}

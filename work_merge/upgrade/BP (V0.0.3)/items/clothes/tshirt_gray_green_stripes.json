@@ -1,0 +1,42 @@
+{
+   "format_version":"1.20.50",
+   "minecraft:item":{
+      "description":{
+         "identifier":"mbl_ts:tshirt_gray_green_stripes",
+         "menu_category":{
+            "category":"equipment",
+            "group":"itemGroup.name.chestplate"
+         }
+      },
+      "components":{
+         "minecraft:max_stack_size":1,
+         "minecraft:icon":{
+            "texture":"tshirt_gray_green_stripes"
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_torso",
+				"value": 10
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest",
+				"protection": 3
+			},
+			"minecraft:durability": {
+				"max_durability": 100
+			},
+			"minecraft:display_name": {
+				"value": "item.mbl_ts:tshirt_gray_green_stripes.name"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"mbl_ts:linen_scrap"
+						],
+						"repair_amount": 25
+					}
+				]
+			}
+		}
+	}
+}

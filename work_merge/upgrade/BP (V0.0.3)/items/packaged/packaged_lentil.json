@@ -1,0 +1,16 @@
+{
+   "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mbl_ts:packaged_lentil"
+    },
+    "components": {
+         "minecraft:icon": "packaged_lentil",
+      "minecraft:display_name": {
+        "value": "item.mbl_ts:packaged_lentil.name"
+         },
+         "minecraft:max_stack_size": 64
+         }
+      }
+    }
+  

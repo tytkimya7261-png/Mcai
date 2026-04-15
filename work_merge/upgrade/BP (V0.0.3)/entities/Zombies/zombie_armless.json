@@ -1,0 +1,643 @@
+{
+   "format_version": "1.21.0",
+   "minecraft:entity": {
+      "description": {
+         "identifier": "mbl_ts:zombie_armless",
+         "spawn_category": "creature",
+         "is_spawnable": true,
+         "is_summonable": true,
+         "properties": {
+            "mbl_ts:skin": {
+               "type": "int",
+               "range": [
+                  0,
+                  54
+               ],
+               "default": 0,
+               "client_sync": true
+            },
+            "mbl_ts:body_type": {
+               "type": "enum",
+               "values": [
+                  "alive",
+                  "corpse"
+               ],
+               "default": "alive",
+               "client_sync": true
+            },
+            "mbl_ts:corpse_pose": {
+               "type": "int",
+               "range": [
+                  0,
+                  3
+               ],
+               "default": 0,
+               "client_sync": true
+            }
+         }
+      },
+      "component_groups": {
+         "mbl_ts:alive": {
+            "minecraft:health": {
+               "value": 8,
+               "max": 8
+            },
+            "minecraft:movement": {
+               "value": 0.16
+            },
+            "minecraft:underwater_movement": {
+               "value": 0.04
+            },
+            "minecraft:navigation.generic": {
+               "can_break_doors": true,
+               "can_path_over_water": false,
+               "avoid_water": false,
+               "avoid_damage_blocks": false,
+               "can_swim": true,
+               "can_breach": true,
+               "can_sink": true
+            },
+            "minecraft:behavior.move_to_land": {
+               "priority": 3,
+               "search_range": 64,
+               "search_height": 5,
+               "goal_radius": 0.5
+            },
+            "minecraft:behavior.random_swim": {
+               "priority": 5,
+               "interval": 0,
+               "xz_dist": 20
+            },
+            "minecraft:floats_in_liquid": {},
+            "minecraft:breathable": {
+               "total_supply": 15,
+               "suffocate_time": -20,
+               "inhale_time": 0,
+               "breathes_air": true,
+               "breathes_water": true,
+               "breathes_lava": false,
+               "breathes_solids": false,
+               "generates_bubbles": true,
+               "breathe_blocks": [],
+               "non_breathe_blocks": []
+            },
+            "minecraft:behavior.random_look_around": {
+               "priority": 9
+            },
+            "minecraft:behavior.look_at_player": {
+               "priority": 7
+            },
+            "minecraft:type_family": {
+               "family": [
+                  "zombie",
+                  "armless_zombie"
+               ]
+            },
+            "minecraft:behavior.random_stroll": {
+               "priority": 9,
+               "speed_multiplier": 0.7
+            },
+            "minecraft:damage_sensor": {
+               "triggers": [
+                  {
+                     "on_damage": {
+                        "filters": {
+                           "all_of": [
+                              {
+                                 "test": "has_damage",
+                                 "value": "fatal"
+                              }
+                           ]
+                        },
+                        "event": "mbl_ts:to_corpse"
+                     },
+                     "deals_damage": false
+                  }
+               ]
+            }
+         },
+         "mbl_ts:corpse": {
+            "minecraft:type_family": {
+               "family": [
+                  "dead"
+               ]
+            },
+            "minecraft:health": {
+               "value": 999,
+               "max": 999
+            },
+            "minecraft:knockback_resistance": {
+               "value": 100,
+               "max": 100
+            },
+            "minecraft:damage_sensor": {
+               "triggers": [
+                  {
+                     "cause": "all",
+                     "deals_damage": false
+                  }
+               ]
+            },
+            "minecraft:breathable": {
+               "total_supply": 15,
+               "suffocate_time": -20,
+               "inhale_time": 0,
+               "breathes_air": true,
+               "breathes_water": true,
+               "breathes_lava": true,
+               "breathes_solids": true,
+               "generates_bubbles": true,
+               "breathe_blocks": [],
+               "non_breathe_blocks": []
+            },
+            "minecraft:interact": {
+               "interactions": [
+                  {
+                     "hurt_item": 4,
+                     "spawn_items": {
+                        "table": "loot_tables/zombie_bodies/zombie_armless_body.json"
+                     },
+                     "on_interact": {
+                        "filters": {
+                           "all_of": [
+                              {
+                                 "test": "has_tag",
+                                 "subject": "other",
+                                 "operator": "equals",
+                                 "value": "sharp_tool"
+                              }
+                           ]
+                        }
+                     },
+                     "play_sounds": "saddle",
+                     "interact_text": "action.interact.use_tool"
+                  }
+               ]
+            },
+            "minecraft:timer": {
+               "looping": false,
+               "randomInterval": false,
+               "time": 16,
+               "time_down_event": {
+                  "event": "mbl_ts:to_despawn"
+               }
+            }
+         },
+         "mbl_ts:despawn": {
+            "minecraft:instant_despawn": {}
+         }
+      },
+      "components": {
+         "minecraft:breathable": {
+            "total_supply": 15,
+            "suffocate_time": 0,
+            "breathes_air": true,
+            "breathes_water": false
+         },
+         "minecraft:collision_box": {
+            "width": 0.9,
+            "height": 1.8
+         },
+         "minecraft:scale": {
+            "value": 1
+         },
+         "minecraft:movement.basic": {},
+         "minecraft:can_climb": {},
+         "minecraft:jump.static": {},
+         "minecraft:knockback_resistance": {
+            "value": 0.6
+         },
+         "minecraft:persistent": {},
+         "minecraft:conditional_bandwidth_optimization": {},
+         "minecraft:leashable": {
+            "soft_distance": 4.0,
+            "hard_distance": 6.0,
+            "max_distance": 10.0,
+            "can_be_stolen": true
+         },
+         "minecraft:despawn": {
+            "filters": {
+               "test": "distance_to_nearest_player",
+               "subject": "self",
+               "operator": ">",
+               "value": 64
+            }
+         },
+         "minecraft:pushable": {
+            "is_pushable": false,
+            "is_pushable_by_piston": true
+         },
+         "minecraft:physics": {}
+      },
+      "events": {
+         "minecraft:entity_spawned": {
+            "sequence": [
+               {
+                  "randomize": [
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 0
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 1
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 2
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 3
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 4
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 5
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 6
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 7
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 8
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 9
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 10
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 11
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 12
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 13
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 14
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 15
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 16
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 17
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 18
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 19
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 20
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 21
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 22
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 23
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 24
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 25
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 26
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 27
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 28
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 29
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 30
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 31
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 32
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 33
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 34
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 35
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 36
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 37
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 38
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 39
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 40
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 41
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 42
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 43
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 44
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 45
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 46
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 47
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 48
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 49
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 50
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 51
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 52
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 53
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:skin": 54
+                        }
+                     }
+                  ]
+               },
+               {
+                  "add": {
+                     "component_groups": [
+                        "mbl_ts:alive"
+                     ]
+                  }
+               }
+            ]
+         },
+         "mbl_ts:to_corpse": {
+            "sequence": [
+               {
+                  "set_property": {
+                     "mbl_ts:body_type": "corpse"
+                  }
+               },
+               {
+                  "randomize": [
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:corpse_pose": 0
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:corpse_pose": 1
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:corpse_pose": 2
+                        }
+                     },
+                     {
+                        "weight": 1,
+                        "set_property": {
+                           "mbl_ts:corpse_pose": 3
+                        }
+                     }
+                  ]
+               },
+               {
+                  "remove": {
+                     "component_groups": [
+                        "mbl_ts:alive"
+                     ]
+                  }
+               },
+               {
+                  "add": {
+                     "component_groups": [
+                        "mbl_ts:corpse"
+                     ]
+                  }
+               },
+               {
+                  "queue_command": {
+                     "command": "scriptevent mbl:zombie_corpse_loot"
+                  }
+               }
+            ]
+         },
+         "mbl_ts:to_despawn": {
+            "add": {
+               "component_groups": [
+                  "mbl_ts:despawn"
+               ]
+            }
+         }
+      }
+   }
+}

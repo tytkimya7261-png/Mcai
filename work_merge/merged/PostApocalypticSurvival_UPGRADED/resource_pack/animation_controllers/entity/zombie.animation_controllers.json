@@ -1,0 +1,143 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.zombie.general": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "look_at_target_default",
+            {
+              "move": "query.modified_move_speed"
+            }
+          ],
+          "transitions": [
+            {
+              "attacking": "query.is_attacking"
+            }
+          ]
+        },
+        "attacking": {
+          "animations": [
+            "attack"
+          ],
+          "transitions": [
+            {
+              "default": "!query.is_attacking"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.pas.custom_zombie": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "idle_anim",
+            {
+              "move": "query.modified_move_speed"
+            }
+          ],
+          "transitions": [
+            {
+              "attacking": "query.is_attacking"
+            }
+          ]
+        },
+        "attacking": {
+          "animations": [
+            "attack_anim"
+          ],
+          "transitions": [
+            {
+              "default": "!query.is_attacking"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.pas.flesh_animal": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "idle_anim"
+          ],
+          "transitions": [
+            {
+              "walking": "query.modified_move_speed > 0.01"
+            },
+            {
+              "attacking": "query.is_attacking"
+            }
+          ]
+        },
+        "walking": {
+          "animations": [
+            "move"
+          ],
+          "transitions": [
+            {
+              "idle": "query.modified_move_speed <= 0.01"
+            },
+            {
+              "attacking": "query.is_attacking"
+            }
+          ]
+        },
+        "attacking": {
+          "animations": [
+            "attack_anim"
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_attacking"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.pas.flesh_howler": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "idle_anim"
+          ],
+          "transitions": [
+            {
+              "walking": "query.modified_move_speed > 0.01"
+            },
+            {
+              "attacking": "query.is_attacking"
+            }
+          ]
+        },
+        "walking": {
+          "animations": [
+            "move"
+          ],
+          "transitions": [
+            {
+              "idle": "query.modified_move_speed <= 0.01"
+            },
+            {
+              "attacking": "query.is_attacking"
+            }
+          ]
+        },
+        "attacking": {
+          "animations": [
+            "attack_anim"
+          ],
+          "transitions": [
+            {
+              "idle": "!query.is_attacking"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

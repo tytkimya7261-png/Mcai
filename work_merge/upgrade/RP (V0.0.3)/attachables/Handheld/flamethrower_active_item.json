@@ -1,0 +1,35 @@
+{
+   "format_version": "1.10.0",
+   "minecraft:attachable": {
+      "description": {
+         "identifier": "mbl_ts:flamethrower_active",
+         "materials": {
+            "default": "entity_alphatest"
+         },
+         "textures": {
+            "default": "textures/mobblocks/ts/entity/attachable/flamethrower_item"
+         },
+         "scripts": {
+            "animate": [
+               "controller"
+            ]
+         },
+         "particle_effects": {
+            "flame": "mbl_ts:flamethrower_particle"
+         },
+         "animations": {
+            "first_person_hold": "animation.mbl_flamethrower.first_person_hold_idle",
+            "third_person_hold": "animation.mbl_flamethrower.third_person_hold_idle",
+            "first_person_attack": "animation.mbl_flamethrower.first_person_hold_attack",
+            "third_person_attack": "animation.mbl_flamethrower.third_person_hold_attack",
+            "controller": "controller.animation.mobblocks_flamethrower"
+         },
+         "geometry": {
+            "default": "geometry.flamethrower_item"
+         },
+         "render_controllers": [
+            "controller.render.default"
+         ]
+      }
+   }
+}

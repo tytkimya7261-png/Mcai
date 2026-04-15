@@ -1,0 +1,31 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:packaged_potato_recipe"
+      },
+      "tags": [
+         "packaging_table"
+      ],
+      "pattern": [
+         "AC"
+      ],
+      "key": {
+         "C": {
+            "item": "minecraft:potato"
+         },
+         "A": {
+            "item": "mbl_ts:empty_packet"
+         }
+      },
+      "unlock": [
+         {
+            "item": "minecraft:potato"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:packaged_potato",
+         "count": 1
+      }
+   }
+}

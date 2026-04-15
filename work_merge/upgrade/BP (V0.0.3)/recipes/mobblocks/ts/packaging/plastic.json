@@ -1,0 +1,33 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:plastic_recipe"
+      },
+      "tags": [
+         "packaging_table"
+      ],
+      "pattern": [
+         "AAA",
+         "ACA",
+         "AAA"
+      ],
+      "key": {
+         "C": {
+            "item": "minecraft:water_bucket"
+         },
+         "A": {
+            "item": "mbl_ts:dirty_plastic"
+         }
+      },
+      "unlock": [
+         {
+            "item": "mbl_ts:dirty_plastic"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:plastic",
+         "count": 8
+      }
+   }
+}

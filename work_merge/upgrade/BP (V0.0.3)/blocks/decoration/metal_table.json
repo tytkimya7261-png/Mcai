@@ -1,0 +1,77 @@
+{
+   "format_version":"1.21.40",
+   "minecraft:block":{
+      "description":{
+         "identifier":"mbl_ts:metal_table",
+         "menu_category":{
+            "category":"construction"
+         }
+      },
+      "components":{
+         "minecraft:collision_box":{
+            "origin":[
+               -8,
+               0,
+               -8
+            ],
+            "size":[
+               16,
+               16,
+               16
+            ]
+         },
+         "minecraft:selection_box":{
+            "origin":[
+               -8,
+               0,
+               -8
+            ],
+            "size":[
+               16,
+               16,
+               16
+            ]
+         },
+         "minecraft:loot":"loot_tables/mobblocks/ts/blocks/metal.json",
+         "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 2.5,
+            "item_specific_speeds": [
+               {
+                  "item": {
+                     "tags": "query.all_tags('minecraft:is_pickaxe') && query.any_tag('minecraft:stone_tier','minecraft:copper_tier','minecraft:wooden_tier')"
+                  },
+                  "destroy_speed": 1.0
+               },
+               {
+                  "item": {
+                     "tags": "query.all_tags('minecraft:is_pickaxe') && query.any_tag('minecraft:golden_tier','minecraft:iron_tier')"
+                  },
+                  "destroy_speed": 0.75
+               },
+               {
+                  "item": {
+                     "tags": "query.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier')"
+                  },
+                  "destroy_speed": 0.25
+               },
+               {
+                  "item": {
+                     "tags": "query.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier')"
+                  },
+                  "destroy_speed": 0.15
+               }
+            ]
+         },
+         "tag:stone_pick_diggable": {},
+         "minecraft:map_color":"#FFFFFF",
+         "minecraft:light_emission":0,
+         "minecraft:material_instances":{
+            "*":{
+               "texture":"metal_table",
+               "render_method":"alpha_test"
+            }
+         },
+         "minecraft:geometry":"geometry.canteen_table"
+      }
+   }
+}

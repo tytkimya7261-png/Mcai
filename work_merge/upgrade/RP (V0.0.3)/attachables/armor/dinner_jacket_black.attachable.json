@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "mbl_ts:dinner_jacket_black",
+			"render_controllers": ["controller.render.armor"],
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/mobblocks/ts/entity/attachable/dinner_jacket_black",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.dinner_jacket_white"
+			}
+		}
+	}
+}

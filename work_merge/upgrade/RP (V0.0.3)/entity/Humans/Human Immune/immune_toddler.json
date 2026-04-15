@@ -1,0 +1,32 @@
+{
+   "format_version": "1.10.0",
+   "minecraft:client_entity": {
+      "description": {
+         "identifier": "mbl_ts:immune_toddler",
+         "materials": {
+            "default": "entity_emissive_alpha"
+         },
+         "textures": {
+            "default": "textures/mobblocks/ts/entity/human_immune/immune_toddler"
+         },
+         "geometry": {
+            "default": "geometry.human_baby"
+         },
+         "animations": {
+            "look_at_target": "animation.common.look_at_target",
+            "idle": "animation.human_baby.idle",
+            "walking": "animation.human_baby.walking",
+            "human_controller": "controller.animation.human"
+         },
+         "scripts": {
+            "animate": [
+               "human_controller"
+            ]
+         },
+         "render_controllers": [
+            "controller.render.mbl_human"
+         ],
+         "enable_attachables": true
+      }
+   }
+}

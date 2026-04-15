@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pas:m700_recipe" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "III",
+      "ISS",
+      "DII"
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "S": { "item": "minecraft:stick" },
+      "D": { "item": "minecraft:diamond" }
+    },
+    "result": { "item": "pas:m700", "count": 1 }
+  }
+}

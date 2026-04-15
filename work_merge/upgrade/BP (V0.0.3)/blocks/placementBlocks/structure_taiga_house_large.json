@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mbl_ts:structure_taiga_house_large",
+      "menu_category": {
+        "category": "none",
+        "group": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 100000
+      },
+      "minecraft:custom_components": [
+        "mbl_ts:custom_structure"
+      ],
+      "minecraft:tick": {
+        "interval_range": [
+          20,20
+        ],
+        "looping": true
+      }
+    }
+  }
+}

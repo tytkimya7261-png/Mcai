@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "pas:abandoned_city_feature"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "pas:city_wall_block_feature",
+      "pas:city_floor_block_feature",
+      "pas:city_debris_block_feature"
+    ]
+  }
+}

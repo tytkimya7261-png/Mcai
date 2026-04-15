@@ -1,0 +1,37 @@
+{
+   "format_version": "1.10.0",
+   "minecraft:client_entity": {
+      "description": {
+         "identifier": "mbl_ts:bike_vehicle",
+         "materials": {
+            "default": "entity_emissive_alpha"
+         },
+         "textures": {
+            "default": "textures/mobblocks/ts/entity/vehicles/bike/bike_white"
+         },
+         "geometry": {
+            "default": "geometry.bike_vehicle"
+         },
+         "animations": {
+            "no_wheels": "animation.bike_vehicle.no_wheels",
+            "bike_tilt": "animation.bike_vehicle.tilt",
+            "wheels": "animation.bike_vehicle.wheels"
+         },
+                  "spawn_egg":{
+               "texture":"bike_vehcile_spawn_egg"
+         },
+         "scripts": {
+            "animate": [
+               {
+                  "no_wheels": "query.property('mbl_ts:wheel_type') == 0"
+               },
+               "bike_tilt",
+               "wheels"
+            ]
+         },
+         "render_controllers": [
+            "controller.render.bike_vehicle"
+         ]
+      }
+   }
+}

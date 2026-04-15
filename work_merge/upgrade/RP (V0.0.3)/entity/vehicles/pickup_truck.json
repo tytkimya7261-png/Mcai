@@ -1,0 +1,68 @@
+{
+   "format_version": "1.10.0",
+   "minecraft:client_entity": {
+      "description": {
+         "identifier": "mbl_ts:pickup_truck",
+         "materials": {
+            "default": "entity_emissive_alpha"
+         },
+         "textures": {
+            "default": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_white",
+				"black": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_black",
+				"blue": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_blue",
+            "brown": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_brown",
+				"cyan": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_cyan",
+            "gray": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_gray",
+				"green": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_green",
+            "light_blue": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_light_blue",
+				"light_gray": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_light_gray",
+            "lime": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_lime",
+				"magenta": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_magenta",
+            "orange": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_orange",
+				"pink": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_pink",
+            "purple": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_purple",
+				"red": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_red",
+				"yellow": "textures/mobblocks/ts/entity/vehicles/pickup/pickup_yellow"
+         },
+         "geometry": {
+            "default": "geometry.pickup_truck"
+         },
+         "animations": {
+            "broken_0": "animation.pickup_truck.broken_0",
+            "broken_1": "animation.pickup_truck.broken_1",
+            "fixed_empty": "animation.pickup_truck.fixed_empty",
+            "fixed_full": "animation.pickup_truck.fixed_full",
+            "car_tilt": "animation.pickup_truck.car_tilt",
+            "not_riding": "animation.pickup_truck.not_riding",
+            "wheels": "animation.pickup_truck.wheels"
+         },
+                  "spawn_egg":{
+               "texture":"pickup_vehcile_spawn_egg"
+         },
+         "scripts": {
+            "animate": [
+               {
+                  "broken_0": "query.property('mbl_ts:wheel_type') == 0"
+               },
+               {
+                  "broken_1": "query.property('mbl_ts:wheel_type') != 0 && query.property('mbl_ts:engine_type') == 0"
+               },
+               {
+                  "fixed_empty": "query.property('mbl_ts:wheel_type') != 0 && query.property('mbl_ts:engine_type') != 0 && !query.has_rider"
+               },
+               {
+                  "fixed_full": "query.property('mbl_ts:wheel_type') != 0 && query.property('mbl_ts:engine_type') != 0 && query.has_rider"
+               },
+               {
+                  "not_riding": "!query.has_rider"
+               },
+               "car_tilt",
+               "wheels"
+            ]
+         },
+         "render_controllers": [
+            "controller.render.pickup_truck"
+         ]
+      }
+   }
+}

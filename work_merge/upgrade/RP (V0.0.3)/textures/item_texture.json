@@ -1,0 +1,1215 @@
+{
+   "resource_pack_name": "vanilla",
+   "texture_name": "atlas.items",
+   "texture_data": {
+      "guidebook": {
+         "textures": "textures/mobblocks/ts/items/explainer_book.png"
+      },
+      "boom_marble": {
+         "textures": "textures/mobblocks/ts/items/ammo/boom_marble.png"
+      },
+      "mega_marble": {
+         "textures": "textures/mobblocks/ts/items/ammo/mega_marble.png"
+      },
+      "marble": {
+         "textures": "textures/mobblocks/ts/items/ammo/marble.png"
+      },
+      "gasoline": {
+         "textures": "textures/mobblocks/ts/items/raw/gasoline.png"
+      },
+      "canister": {
+         "textures": "textures/mobblocks/ts/items/raw/canister.png"
+      },
+      "raw_zinc": {
+         "textures": "textures/mobblocks/ts/items/raw/raw_zinc.png"
+      },
+      "zinc_ingot": {
+         "textures": "textures/mobblocks/ts/items/raw/zinc_ingot.png"
+      },
+      "nickel_ingot": {
+         "textures": "textures/mobblocks/ts/items/raw/nickel_ingot.png"
+      },
+      "raw_nickel": {
+         "textures": "textures/mobblocks/ts/items/raw/raw_nickel.png"
+      },
+      "steel_ingot": {
+         "textures": "textures/mobblocks/ts/items/raw/steel_ingot.png"
+      },
+      "unrefined_steel": {
+         "textures": "textures/mobblocks/ts/items/raw/unrefined_steel.png"
+      },
+      "titanium_ingot": {
+         "textures": "textures/mobblocks/ts/items/raw/titanium_ingot.png"
+      },
+      "titanium_scrap": {
+         "textures": "textures/mobblocks/ts/items/raw/titanium_scrap.png"
+      },
+      "melted_glass": {
+         "textures": "textures/mobblocks/ts/items/raw/melted_glass.png"
+      },
+      "empty_packet": {
+         "textures": "textures/mobblocks/ts/items/packaged/empty_packet.png"
+      },
+      "packaged_broad_bean": {
+         "textures": "textures/mobblocks/ts/items/packaged/broad_bean.png"
+      },
+      "packaged_lentil": {
+         "textures": "textures/mobblocks/ts/items/packaged/lentil.png"
+      },
+      "packaged_spinach": {
+         "textures": "textures/mobblocks/ts/items/packaged/spinach.png"
+      },
+      "packaged_tomato": {
+         "textures": "textures/mobblocks/ts/items/packaged/tomato.png"
+      },
+      "packaged_peanut": {
+         "textures": "textures/mobblocks/ts/items/packaged/peanut.png"
+      },
+      "packaged_beetroot": {
+         "textures": "textures/mobblocks/ts/items/packaged/beetroot.png"
+      },
+      "packaged_carrot": {
+         "textures": "textures/mobblocks/ts/items/packaged/carrot.png"
+      },
+      "packaged_potato": {
+         "textures": "textures/mobblocks/ts/items/packaged/potato.png"
+      },
+      "peanut": {
+         "textures": "textures/mobblocks/ts/items/food/peanut.png"
+      },
+      "broad_bean": {
+         "textures": "textures/mobblocks/ts/items/food/broad_bean.png"
+      },
+      "lentil": {
+         "textures": "textures/mobblocks/ts/items/food/lentil.png"
+      },
+      "spinach": {
+         "textures": "textures/mobblocks/ts/items/food/spinach.png"
+      },
+      "tomato": {
+         "textures": "textures/mobblocks/ts/items/food/tomato.png"
+      },
+      "plastic": {
+         "textures": "textures/mobblocks/ts/items/packaged/plastic.png"
+      },
+      "dirty_plastic": {
+         "textures": "textures/mobblocks/ts/items/packaged/dirty_plastic.png"
+      },
+      "nails": {
+         "textures": "textures/mobblocks/ts/items/raw/nails.png"
+      },
+      "peanut_seed": {
+         "textures": "textures/mobblocks/ts/items/food/seeds/peanut_seed.png"
+      },
+      "broad_bean_seed": {
+         "textures": "textures/mobblocks/ts/items/food/seeds/broad_bean_seed.png"
+      },
+      "lentil_seed": {
+         "textures": "textures/mobblocks/ts/items/food/seeds/lentil_seed.png"
+      },
+      "spinach_seed": {
+         "textures": "textures/mobblocks/ts/items/food/seeds/spinach_seed.png"
+      },
+      "tomato_seed": {
+         "textures": "textures/mobblocks/ts/items/food/seeds/tomato_seed.png"
+      },
+      "linen_scrap": {
+         "textures": "textures/mobblocks/ts/items/raw/linen_scrap.png"
+      },
+      "bruised_apple": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/bruised_apple.png"
+      },
+      "rotten_apple": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_apple.png"
+      },
+      "burnt_potato": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/burnt_potato.png"
+      },
+      "charred_steak": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/charred_steak.png"
+      },
+      "cold_baked_potato": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_baked_potato.png"
+      },
+      "cold_mushroom_stew": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_mushroom_stew.png"
+      },
+      "cold_rabbit": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_rabbit.png"
+      },
+      "cold_rabbit_stew": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_rabbit_stew.png"
+      },
+      "cold_steak": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_steak.png"
+      },
+      "cracked_egg": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cracked_egg.png"
+      },
+      "cursed_suspicous_stew": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cursed_suspicous_stew.png"
+      },
+      "dead_glow_berries": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/dead_glow_berries.png"
+      },
+      "cold_chicken": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_chicken.png"
+      },
+      "cold_porkchop": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_porkchop.png"
+      },
+      "dry_pumpkin_pie": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/dry_pumpkin_pie.png"
+      },
+      "dull_glow_berries": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/dull_glow_berries.png"
+      },
+      "dull_suspicous_stew": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/dull_suspicous_stew.png"
+      },
+      "fermented_beetroot_soup": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/fermented_beetroot_soup.png"
+      },
+      "gamey_rabbit": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/gamey_rabbit.png"
+      },
+      "gamey_rabbit_stew": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/gamey_rabbit_stew.png"
+      },
+      "slimy_salmon": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/slimy_salmon.png"
+      },
+      "mouldy_sweet_berries": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/mouldy_sweet_berries.png"
+      },
+      "mouldy_bread": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/mouldy_bread.png"
+      },
+      "mouldy_cookie": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/mouldy_cookie.png"
+      },
+      "mouldy_potato": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/mouldy_potato.png"
+      },
+      "overcooked_cod": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/overcooked_cod.png"
+      },
+      "cold_mutton": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/cold_mutton.png"
+      },
+      "rotted_wheat": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotted_wheat.png"
+      },
+      "rotten_beef": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_beef.png"
+      },
+      "rotten_beetroot": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_beetroot.png"
+      },
+      "rotten_chicken": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_chicken.png"
+      },
+      "rotten_cod": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_cod.png"
+      },
+      "rotten_egg": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_egg.png"
+      },
+      "rotten_mutton": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_mutton.png"
+      },
+      "rotten_salmon": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_salmon.png"
+      },
+      "slimy_carrot": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/slimy_carrot.png"
+      },
+      "slimy_cod": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/slimy_cod.png"
+      },
+      "slimy_melon": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/slimy_melon.png"
+      },
+      "slimy_chicken": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/slimy_chicken.png"
+      },
+      "soft_cookie": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/soft_cookie.png"
+      },
+      "sour_beetroot_soup": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/sour_beetroot_soup.png"
+      },
+      "sour_milk_bucket": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/sour_milk_bucket.png"
+      },
+      "spoiled_chicken": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/spoiled_chicken.png"
+      },
+      "spoiled_mushroom_stew": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/spoiled_mushroom_stew.png"
+      },
+      "spoiled_pie": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/spoiled_pie.png"
+      },
+      "rotten_porkchop": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/rotten_porkchop.png"
+      },
+      "spoiled_cod": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/spoiled_cod.png"
+      },
+      "spoiled_salmon": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/spoiled_salmon.png"
+      },
+      "spoiling_milk_bucket": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/spoiling_milk_bucket.png"
+      },
+      "spoiling_wheat": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/spoiling_wheat.png"
+      },
+      "sprouting_potato": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/sprouting_potato.png"
+      },
+      "squashed_berries": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/squashed_berries.png"
+      },
+      "stale_beef": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_beef.png"
+      },
+      "stale_bread": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_bread.png"
+      },
+      "stale_melon": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_melon.png"
+      },
+      "stale_mutton": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_mutton.png"
+      },
+      "stale_porkchop": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_porkchop.png"
+      },
+      "stale_rabbit": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_rabbit.png"
+      },
+      "stale_chicken": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_chicken.png"
+      },
+      "stale_salmon": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/stale_salmon.png"
+      },
+      "wilted_carrot": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/wilted_carrot.png"
+      },
+      "wrinkled_beetroot": {
+         "textures": "textures/mobblocks/ts/items/food/rotten/wrinkled_beetroot.png"
+      },
+      "racing_bottoms_yellow": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_bottoms_yellow.png"
+      },
+      "racing_bottoms_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_bottoms_blue.png"
+      },
+      "racing_bottoms_red": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_bottoms_red.png"
+      },
+      "racing_bottoms_white": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_bottoms_white.png"
+      },
+      "racing_bottoms_black": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_bottoms_black.png"
+      },
+      "racing_jacket_yellow": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_jacket_yellow.png"
+      },
+      "racing_jacket_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_jacket_blue.png"
+      },
+      "racing_jacket_red": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_jacket_red.png"
+      },
+      "racing_jacket_white": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_jacket_white.png"
+      },
+      "racing_jacket_black": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_jacket_black.png"
+      },
+      "racing_helmet_white": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_helmet_white.png"
+      },
+      "racing_helmet_black": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_helmet_black.png"
+      },
+      "racing_helmet_red": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_helmet_red.png"
+      },
+      "racing_helmet_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_helmet_blue.png"
+      },
+      "racing_helmet_yellow": {
+         "textures": "textures/mobblocks/ts/items/armor/racing_helmet_yellow.png"
+      },
+      "cap_pink": {
+         "textures": "textures/mobblocks/ts/items/armor/cap_pink.png"
+      },
+      "cap_green": {
+         "textures": "textures/mobblocks/ts/items/armor/cap_green.png"
+      },
+      "cap_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/cap_blue.png"
+      },
+      "cap_red": {
+         "textures": "textures/mobblocks/ts/items/armor/cap_red.png"
+      },
+      "cap_black": {
+         "textures": "textures/mobblocks/ts/items/armor/cap_black.png"
+      },
+      "gamer_trainers_black": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_trainers_black.png"
+      },
+      "gamer_trainers_white": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_trainers_white.png"
+      },
+      "gamer_bottoms_red": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_bottoms_red.png"
+      },
+      "gamer_bottoms_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_bottoms_blue.png"
+      },
+      "gamer_bottoms_white": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_bottoms_white.png"
+      },
+      "gamer_bottoms_black": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_bottoms_black.png"
+      },
+      "gamer_hoodie_pink": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_hoodie_pink.png"
+      },
+      "gamer_hoodie_white": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_hoodie_white.png"
+      },
+      "gamer_hoodie_red": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_hoodie_red.png"
+      },
+      "gamer_hoodie_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/gamer_hoodie_blue.png"
+      },
+      "shirt_yellow": {
+         "textures": "textures/mobblocks/ts/items/armor/shirt_yellow.png"
+      },
+      "shirt_black": {
+         "textures": "textures/mobblocks/ts/items/armor/shirt_black.png"
+      },
+      "shirt_redblue": {
+         "textures": "textures/mobblocks/ts/items/armor/shirt_redblue.png"
+      },
+      "slippers_bunny": {
+         "textures": "textures/mobblocks/ts/items/armor/slippers_bunny.png"
+      },
+      "slippers_mouse": {
+         "textures": "textures/mobblocks/ts/items/armor/slippers_mouse.png"
+      },
+      "sports_tennis_socks_trainers_red": {
+         "textures": "textures/mobblocks/ts/items/armor/sports_tennis_socks_trainers_red.png"
+      },
+      "sports_tennis_shorts_red": {
+         "textures": "textures/mobblocks/ts/items/armor/sports_tennis_shorts_red.png"
+      },
+      "sports_top_tennis_red": {
+         "textures": "textures/mobblocks/ts/items/armor/sports_top_tennis_red.png"
+      },
+      "sports_tennis_socks_trainers": {
+         "textures": "textures/mobblocks/ts/items/armor/sports_tennis_socks_trainers.png"
+      },
+      "sports_tennis_shorts": {
+         "textures": "textures/mobblocks/ts/items/armor/sports_tennis_shorts.png"
+      },
+      "sports_top_tennis": {
+         "textures": "textures/mobblocks/ts/items/armor/sports_top_tennis.png"
+      },
+      "pyjamas_bottoms": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_bottoms.png"
+      },
+      "pyjamas_bottoms_grey": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_bottoms_grey.png"
+      },
+      "pyjamas_bottoms_green": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_bottoms_green.png"
+      },
+      "pyjamas_bottoms_pink": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_bottoms_pink.png"
+      },
+      "pyjamas_bottoms_yellow": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_bottoms_yellow.png"
+      },
+      "pyjamas_bottoms_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_bottoms_blue.png"
+      },
+      "pyjamas_top": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_top.png"
+      },
+      "pyjamas_top_grey": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_top_grey.png"
+      },
+      "pyjamas_top_green": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_top_green.png"
+      },
+      "pyjamas_top_pink": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_top_pink.png"
+      },
+      "pyjamas_top_yellow": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_top_yellow.png"
+      },
+      "pyjamas_top_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/pyjamas_top_blue.png"
+      },
+      "dinner_jacket_black": {
+         "textures": "textures/mobblocks/ts/items/armor/dinner_jacket_black.png"
+      },
+      "glasses_sun_01": {
+         "textures": "textures/mobblocks/ts/items/armor/glasses_sun_01.png"
+      },
+      "zombie_heart": {
+         "textures": "textures/mobblocks/ts/items/vaccination/zombie_heart"
+      },
+      "battery": {
+         "textures": "textures/mobblocks/ts/items/electrical/battery"
+      },
+      "lithium": {
+         "textures": "textures/mobblocks/ts/items/raw/lithium"
+      },
+      "raw_aluminium": {
+         "textures": "textures/mobblocks/ts/items/raw/raw_aluminium"
+      },
+      "aluminium_ingot": {
+         "textures": "textures/mobblocks/ts/items/raw/aluminium_ingot"
+      },
+      "crude_oil": {
+         "textures": "textures/mobblocks/ts/items/raw/crude_oil"
+      },
+      "bandage": {
+         "textures": "textures/mobblocks/ts/items/medical/bandage"
+      },
+      "stamina_brew": {
+         "textures": "textures/mobblocks/ts/items/medical/stamina_brew"
+      },
+      "valor_brew": {
+         "textures": "textures/mobblocks/ts/items/medical/valor_brew"
+      },
+      "rag": {
+         "textures": "textures/mobblocks/ts/items/medical/rag"
+      },
+      "anti_toxin_brew": {
+         "textures": "textures/mobblocks/ts/items/medical/anti_toxin_brew"
+      },
+      "power_brew": {
+         "textures": "textures/mobblocks/ts/items/medical/power_brew"
+      },
+      "mighty_healing_brew": {
+         "textures": "textures/mobblocks/ts/items/medical/mighty_healing_brew"
+      },
+      "healing_brace": {
+         "textures": "textures/mobblocks/ts/items/medical/healing_brace"
+      },
+      "purity_brew": {
+         "textures": "textures/mobblocks/ts/items/medical/purity_brew"
+      },
+      "energy_pack": {
+         "textures": "textures/mobblocks/ts/items/medical/energy_pack"
+      },
+      "vitality_brew": {
+         "textures": "textures/mobblocks/ts/items/medical/vitality_brew"
+      },
+      "tin_of_beans": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_beans"
+      },
+      "tin_of_spaghetti_hoops": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_spaghetti_hoops"
+      },
+      "tin_of_tomato_soup": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_tomato_soup"
+      },
+      "tin_of_chicken_soup": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_chicken_soup"
+      },
+      "tin_of_vegetable_soup": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_vegetable_soup"
+      },
+      "tin_of_mushroom_soup": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_mushroom_soup"
+      },
+      "tin_of_oxtail_soup": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_oxtail_soup"
+      },
+      "tin_of_custard": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_custard"
+      },
+      "tin_of_beef_ravioli": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_beef_ravioli"
+      },
+      "tin_of_macaroni_cheese": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_macaroni_cheese"
+      },
+      "tin_of_carbonara": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_carbonara"
+      },
+      "tin_of_beef_stew": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_beef_stew"
+      },
+      "tin_of_stewed_steak": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_stewed_steak"
+      },
+      "tin_of_chicken_curry": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_chicken_curry"
+      },
+      "tin_of_beans_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_beans_open"
+      },
+      "tin_of_spaghetti_hoops_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_spaghetti_hoops_open"
+      },
+      "tin_of_tomato_soup_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_tomato_soup_open"
+      },
+      "tin_of_chicken_soup_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_chicken_soup_open"
+      },
+      "tin_of_vegetable_soup_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_vegetable_soup_open"
+      },
+      "tin_of_mushroom_soup_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_mushroom_soup_open"
+      },
+      "tin_of_oxtail_soup_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_oxtail_soup_open"
+      },
+      "tin_of_custard_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_custard_open"
+      },
+      "tin_of_beef_ravioli_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_beef_ravioli_open"
+      },
+      "tin_of_macaroni_cheese_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_macaroni_cheese_open"
+      },
+      "tin_of_carbonara_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_carbonara_open"
+      },
+      "tin_of_beef_stew_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_beef_stew_open"
+      },
+      "tin_of_stewed_steak_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_stewed_steak_open"
+      },
+      "tin_of_chicken_curry_open": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_chicken_curry_open"
+      },
+      "tin_of_dog_food": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/tin_of_dog_food"
+      },
+      "empty_food_tin": {
+         "textures": "textures/mobblocks/ts/items/food/tinned_food/empty_food_tin"
+      },
+      "king_kola": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/king_kola"
+      },
+      "cherry_king_kola": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/cherry_king_kola"
+      },
+      "vanilla_king_kola": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/vanilla_king_kola"
+      },
+      "popso": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/popso"
+      },
+      "cherry_popso": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/cherry_popso"
+      },
+      "popso_max": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/popso_max"
+      },
+      "popso_max_lime": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/popso_max_lime"
+      },
+      "dr_poppers": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/dr_poppers"
+      },
+      "freshers_orange": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/freshers_orange"
+      },
+      "freshers_fruit_twist": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/freshers_fruit_twist"
+      },
+      "empty_drink_tin": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/empty_drink_tin"
+      },
+      "midway_energy": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/midway_energy"
+      },
+      "crimson_buffalo": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/crimson_buffalo"
+      },
+      "bottle_of_water_4": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_4"
+      },
+      "bottle_of_water_3": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_3"
+      },
+      "bottle_of_water_2": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_2"
+      },
+      "bottle_of_water_1": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_1"
+      },
+      "bottle_of_water_0": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_0"
+      },
+      "bottle_of_water_dirty_4": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_dirty_4"
+      },
+      "bottle_of_water_dirty_3": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_dirty_3"
+      },
+      "bottle_of_water_dirty_2": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_dirty_2"
+      },
+      "bottle_of_water_dirty_1": {
+         "textures": "textures/mobblocks/ts/items/food/drinks/bottle_of_water_dirty_1"
+      },
+      "earth_bar": {
+         "textures": "textures/mobblocks/ts/items/food/sweets/earth_bar"
+      },
+      "dumb_bar": {
+         "textures": "textures/mobblocks/ts/items/food/sweets/dumb_bar"
+      },
+      "twonk_bar": {
+         "textures": "textures/mobblocks/ts/items/food/sweets/twonk_bar"
+      },
+      "glazed_donut": {
+         "textures": "textures/mobblocks/ts/items/food/sweets/glazed_donut"
+      },
+      "beef_jerky_original": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/beef_jerky_original"
+      },
+      "beef_jerky_spicy": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/beef_jerky_spicy"
+      },
+      "beef_jerky_teriyaki": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/beef_jerky_teriyaki"
+      },
+      "beef_jerky_original_open": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/beef_jerky_original_open"
+      },
+      "beef_jerky_spicy_open": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/beef_jerky_spicy_open"
+      },
+      "beef_jerky_teriyaki_open": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/beef_jerky_teriyaki_open"
+      },
+      "ramen_noodles_chicken": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/ramen_noodles_chicken"
+      },
+      "ramen_noodles_chicken_open": {
+         "textures": "textures/mobblocks/ts/items/food/dried_food/ramen_noodles_chicken_open"
+      },
+      "backpack_black": {
+         "textures": "textures/mobblocks/ts/items/backpacks/black"
+      },
+      "backpack_blue": {
+         "textures": "textures/mobblocks/ts/items/backpacks/blue"
+      },
+      "backpack_brown": {
+         "textures": "textures/mobblocks/ts/items/backpacks/brown"
+      },
+      "backpack_cyan": {
+         "textures": "textures/mobblocks/ts/items/backpacks/cyan"
+      },
+      "backpack_gray": {
+         "textures": "textures/mobblocks/ts/items/backpacks/gray"
+      },
+      "backpack_green": {
+         "textures": "textures/mobblocks/ts/items/backpacks/green"
+      },
+      "backpack_light_blue": {
+         "textures": "textures/mobblocks/ts/items/backpacks/light_blue"
+      },
+      "backpack_lime": {
+         "textures": "textures/mobblocks/ts/items/backpacks/lime"
+      },
+      "backpack_magenta": {
+         "textures": "textures/mobblocks/ts/items/backpacks/magenta"
+      },
+      "backpack_red": {
+         "textures": "textures/mobblocks/ts/items/backpacks/red"
+      },
+      "backpack_orange": {
+         "textures": "textures/mobblocks/ts/items/backpacks/orange"
+      },
+      "backpack_pink": {
+         "textures": "textures/mobblocks/ts/items/backpacks/pink"
+      },
+      "backpack_purple": {
+         "textures": "textures/mobblocks/ts/items/backpacks/purple"
+      },
+      "backpack_silver": {
+         "textures": "textures/mobblocks/ts/items/backpacks/light_gray"
+      },
+      "backpack_white": {
+         "textures": "textures/mobblocks/ts/items/backpacks/white"
+      },
+      "backpack_yellow": {
+         "textures": "textures/mobblocks/ts/items/backpacks/yellow"
+      },
+      "bicycle": {
+         "textures": "textures/mobblocks/ts/items/spawners/bicycle"
+      },
+      "front_wheel": {
+         "textures": "textures/mobblocks/ts/items/parts/front_wheel"
+      },
+      "back_wheel": {
+         "textures": "textures/mobblocks/ts/items/parts/back_wheel"
+      },
+      "bicycle_frame": {
+         "textures": "textures/mobblocks/ts/items/parts/bicycle_frame"
+      },
+      "zombie_vaccine": {
+         "textures": "textures/mobblocks/ts/items/vaccination/zombie_vaccine"
+      },
+      "bottle_of_zombie_goo": {
+         "textures": "textures/mobblocks/ts/items/vaccination/bottle_of_zombie_goo"
+      },
+      "sweet_yeast_mix": {
+         "textures": "textures/mobblocks/ts/items/vaccination/sweet_yeast_mix"
+      },
+      "fizzy_water": {
+         "textures": "textures/mobblocks/ts/items/vaccination/fizzy_water"
+      },
+      "vial_of_netherwart_solution": {
+         "textures": "textures/mobblocks/ts/items/vaccination/vial_of_netherwart_solution"
+      },
+      "dried_nether_wart": {
+         "textures": "textures/mobblocks/ts/items/vaccination/dried_nether_wart"
+      },
+      "yeast": {
+         "textures": "textures/mobblocks/ts/items/vaccination/yeast"
+      },
+      "baseball_bat": {
+         "textures": "textures/mobblocks/ts/items/melee/baseball_bat"
+      },
+      "flamethrower": {
+         "textures": "textures/mobblocks/ts/items/melee/flamethrower"
+      },
+      "chainsaw": {
+         "textures": "textures/mobblocks/ts/items/melee/chainsaw"
+      },
+      "claw_hammer": {
+         "textures": "textures/mobblocks/ts/items/melee/claw_hammer"
+      },
+      "copper_pipe": {
+         "textures": "textures/mobblocks/ts/items/melee/copper_pipe"
+      },
+      "cutting_board": {
+         "textures": "textures/mobblocks/ts/items/melee/cutting_board"
+      },
+      "frying_pan": {
+         "textures": "textures/mobblocks/ts/items/melee/frying_pan"
+      },
+      "nailer": {
+         "textures": "textures/mobblocks/ts/items/melee/nailer"
+      },
+      "pipe_wrench": {
+         "textures": "textures/mobblocks/ts/items/melee/pipe_wrench"
+      },
+      "metal_bat": {
+         "textures": "textures/mobblocks/ts/items/melee/metal_bat"
+      },
+      "razor_wire_bat": {
+         "textures": "textures/mobblocks/ts/items/melee/razor_wire_bat"
+      },
+      "firefighter_axe": {
+         "textures": "textures/mobblocks/ts/items/melee/firefighter_axe"
+      },
+      "crowbar": {
+         "textures": "textures/mobblocks/ts/items/melee/crowbar"
+      },
+      "screwdriver": {
+         "textures": "textures/mobblocks/ts/items/melee/screwdriver"
+      },
+      "hammer": {
+         "textures": "textures/mobblocks/ts/items/melee/hammer"
+      },
+      "sledge_hammer": {
+         "textures": "textures/mobblocks/ts/items/melee/sledge_hammer"
+      },
+      "katana": {
+         "textures": "textures/mobblocks/ts/items/melee/katana"
+      },
+      "kitchen_knife": {
+         "textures": "textures/mobblocks/ts/items/melee/kitchen_knife"
+      },
+      "spanner": {
+         "textures": "textures/mobblocks/ts/items/melee/spanner"
+      },
+      "golf_club": {
+         "textures": "textures/mobblocks/ts/items/melee/golf_club"
+      },
+      "small_rock": {
+         "textures": "textures/mobblocks/ts/items/handheld/small_rock"
+      },
+      "walkie_talkie": {
+         "textures": "textures/mobblocks/ts/items/handheld/walkie_talkie"
+      },
+      "flashlight_mainhand": {
+         "textures": "textures/mobblocks/ts/items/handheld/flashlight_mainhand"
+      },
+      "flashlight_offhand": {
+         "textures": "textures/mobblocks/ts/items/handheld/flashlight_offhand"
+      },
+      "paintbrush_black": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_black"
+      },
+      "paintbrush_blue": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_blue"
+      },
+      "paintbrush_brown": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_brown"
+      },
+      "paintbrush_cyan": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_cyan"
+      },
+      "paintbrush_gray": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_gray"
+      },
+      "paintbrush_green": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_green"
+      },
+      "paintbrush_light_blue": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_light_blue"
+      },
+      "paintbrush_light_gray": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_light_gray"
+      },
+      "paintbrush_lime": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_lime"
+      },
+      "paintbrush_magenta": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_magenta"
+      },
+      "paintbrush_orange": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_orange"
+      },
+      "paintbrush_pink": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_pink"
+      },
+      "paintbrush_purple": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_purple"
+      },
+      "paintbrush_red": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_red"
+      },
+      "paintbrush_white": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_white"
+      },
+      "paintbrush_yellow": {
+         "textures": "textures/mobblocks/ts/items/paintbrushes/paintbrush_yellow"
+      },
+      "parachute": {
+         "textures": "textures/mobblocks/ts/items/armor/parachute"
+      },
+      "bicycle_helmet_green": {
+         "textures": "textures/mobblocks/ts/items/armor/bicycle_helmet_green"
+      },
+      "bicycle_helmet_red": {
+         "textures": "textures/mobblocks/ts/items/armor/bicycle_helmet_red"
+      },
+      "bicycle_helmet_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/bicycle_helmet_blue"
+      },
+      "bicycle_helmet_pink": {
+         "textures": "textures/mobblocks/ts/items/armor/bicycle_helmet_pink"
+      },
+      "bicycle_helmet_black": {
+         "textures": "textures/mobblocks/ts/items/armor/bicycle_helmet_black"
+      },
+      "tshirt_black_red_stripes": {
+         "textures": "textures/mobblocks/ts/items/armor/tshirt_black_red_stripes"
+      },
+      "tshirt_white_blue_stripes": {
+         "textures": "textures/mobblocks/ts/items/armor/tshirt_white_blue_stripes"
+      },
+      "tshirt_gray_green_stripes": {
+         "textures": "textures/mobblocks/ts/items/armor/tshirt_gray_green_stripes"
+      },
+      "jumper_red_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/jumper_red_blue"
+      },
+      "jumper_red_pattern": {
+         "textures": "textures/mobblocks/ts/items/armor/jumper_red_pattern"
+      },
+      "jumper_green_pattern": {
+         "textures": "textures/mobblocks/ts/items/armor/jumper_green_pattern"
+      },
+      "jumper_black_pattern": {
+         "textures": "textures/mobblocks/ts/items/armor/jumper_black_pattern"
+      },
+      "jumper_xmas": {
+         "textures": "textures/mobblocks/ts/items/armor/jumper_xmas"
+      },
+      "trousers_blue_jean": {
+         "textures": "textures/mobblocks/ts/items/armor/trousers_blue_jean"
+      },
+      "trousers_white_jean": {
+         "textures": "textures/mobblocks/ts/items/armor/trousers_white_jean"
+      },
+      "trousers_black_leather": {
+         "textures": "textures/mobblocks/ts/items/armor/trousers_black_leather"
+      },
+      "coat_green": {
+         "textures": "textures/mobblocks/ts/items/armor/coat_green"
+      },
+      "coat_blue": {
+         "textures": "textures/mobblocks/ts/items/armor/coat_blue"
+      },
+      "coat_black_leather": {
+         "textures": "textures/mobblocks/ts/items/armor/coat_black_leather"
+      },
+      "blocks_28_later_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/blocks_28_later_dvd"
+      },
+      "chunks_28_later_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/chunks_28_later_dvd"
+      },
+      "villagers_of_the_dead_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/villagers_of_the_dead_dvd"
+      },
+      "dawn_of_the_witches_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/dawn_of_the_witches_dvd"
+      },
+      "night_of_the_mobs_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/night_of_the_mobs_dvd"
+      },
+      "chickens_came_back_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/chickens_came_back_dvd"
+      },
+      "minecart_to_the_end_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/minecart_to_the_end_dvd"
+      },
+      "the_return_of_the_skeleton_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/the_return_of_the_skeleton_dvd"
+      },
+      "day_of_the_zombies_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/day_of_the_zombies_dvd"
+      },
+      "wither_of_darkness_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/wither_of_darkness_dvd"
+      },
+      "wm_season_1": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_1"
+      },
+      "wm_season_2": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_2"
+      },
+      "wm_season_3": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_3"
+      },
+      "wm_season_4": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_4"
+      },
+      "wm_season_5": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_5"
+      },
+      "wm_season_6": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_6"
+      },
+      "wm_season_7": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_7"
+      },
+      "wm_season_8": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_8"
+      },
+      "wm_season_9": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_9"
+      },
+      "wm_season_10": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_10"
+      },
+      "wm_season_11": {
+         "textures": "textures/mobblocks/ts/items/poster/wm_season_11"
+      },
+      "fighting_panda_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/fighting_panda_dvd"
+      },
+      "school_of_cobble_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/school_of_cobble_dvd"
+      },
+      "shallow_steve_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/shallow_steve_dvd"
+      },
+      "super_creeper_bro_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/super_creeper_bro_dvd"
+      },
+      "block_one_dvd": {
+         "textures": "textures/mobblocks/ts/items/poster/block_one_dvd"
+      },
+      "playpod_controller_black": {
+         "textures": "textures/mobblocks/ts/items/electrical/playpod_controller_black"
+      },
+      "playpod_controller_white": {
+         "textures": "textures/mobblocks/ts/items/electrical/playpod_controller_white"
+      },
+      "playpod_controller_red": {
+         "textures": "textures/mobblocks/ts/items/electrical/playpod_controller_red"
+      },
+      "ycube_controller_black": {
+         "textures": "textures/mobblocks/ts/items/electrical/ycube_controller_black"
+      },
+      "ycube_controller_white": {
+         "textures": "textures/mobblocks/ts/items/electrical/ycube_controller_white"
+      },
+      "ycube_controller_blue": {
+         "textures": "textures/mobblocks/ts/items/electrical/ycube_controller_blue"
+      },
+      "vector_controller_blue": {
+         "textures": "textures/mobblocks/ts/items/electrical/vector_controller_blue"
+      },
+      "vector_controller_red": {
+         "textures": "textures/mobblocks/ts/items/electrical/vector_controller_red"
+      },
+      "vector_controller_green": {
+         "textures": "textures/mobblocks/ts/items/electrical/vector_controller_green"
+      },
+      "vector_controller_yellow": {
+         "textures": "textures/mobblocks/ts/items/electrical/vector_controller_yellow"
+      },
+      "tv_controller": {
+         "textures": "textures/mobblocks/ts/items/electrical/tv_controller"
+      },
+      "mp3_player_black": {
+         "textures": "textures/mobblocks/ts/items/electrical/mp3_player_black"
+      },
+      "mp3_player_white": {
+         "textures": "textures/mobblocks/ts/items/electrical/mp3_player_white"
+      },
+      "mp3_player_green": {
+         "textures": "textures/mobblocks/ts/items/electrical/mp3_player_green"
+      },
+      "mp3_player_red": {
+         "textures": "textures/mobblocks/ts/items/electrical/mp3_player_red"
+      },
+      "electrical_scrap": {
+         "textures": "textures/mobblocks/ts/items/electrical/electrical_scrap"
+      },
+      "dog_spawn_egg": {
+         "textures": "textures/mobblocks/ts/items/spawners/dog"
+      },
+      "rat_spawn_egg": {
+         "textures": "textures/mobblocks/ts/items/spawners/rat"
+      },
+      "crow_spawn_egg": {
+         "textures": "textures/mobblocks/ts/items/spawners/crow"
+      },
+      "sedan_vehcile_spawn_egg": {
+         "textures": "textures/mobblocks/ts/items/spawners/sedan"
+      },
+      "pickup_vehcile_spawn_egg": {
+         "textures": "textures/mobblocks/ts/items/spawners/pickup"
+      },
+      "bike_vehcile_spawn_egg": {
+         "textures": "textures/mobblocks/ts/items/spawners/motorcycle"
+      },
+      "zombie_walker": {
+         "textures": "textures/mobblocks/ts/items/spawners/zombie_walker"
+      },
+      "zombie_crawler": {
+         "textures": "textures/mobblocks/ts/items/spawners/zombie_crawler"
+      },
+      "zombie_bloater": {
+         "textures": "textures/mobblocks/ts/items/spawners/zombie_bloater"
+      },
+      "zombie_armless": {
+         "textures": "textures/mobblocks/ts/items/spawners/zombie_armless"
+      },
+      "human": {
+         "textures": "textures/mobblocks/ts/items/spawners/human"
+      },
+      "vehicle_background_icon": {
+         "textures": "textures/mobblocks/ts/customUI/vehicle_background_icon"
+      },
+      "vehicle_tyre_icon": {
+         "textures": "textures/mobblocks/ts/customUI/vehicle_tyre_icon"
+      },
+      "vehicle_upgrade_icon": {
+         "textures": "textures/mobblocks/ts/customUI/vehicle_upgrade_icon"
+      },
+      "vehicle_engine_icon": {
+         "textures": "textures/mobblocks/ts/customUI/vehicle_engine_icon"
+      },
+      "vehicle_fuel_icon": {
+         "textures": "textures/mobblocks/ts/customUI/vehicle_fuel_icon"
+      },
+      "engine_part_1": {
+         "textures": "textures/mobblocks/ts/items/parts/engine_part_1"
+      },
+      "engine_part_2": {
+         "textures": "textures/mobblocks/ts/items/parts/engine_part_2"
+      },
+      "engine_part_3": {
+         "textures": "textures/mobblocks/ts/items/parts/engine_part_3"
+      },
+      "tyre_part_1": {
+         "textures": "textures/mobblocks/ts/items/parts/tyre_part_1"
+      },
+      "tyre_part_2": {
+         "textures": "textures/mobblocks/ts/items/parts/tyre_part_2"
+      },
+      "tyre_part_3": {
+         "textures": "textures/mobblocks/ts/items/parts/tyre_part_3"
+      },
+      "fuel_item": {
+         "textures": "textures/mobblocks/ts/items/parts/fuel_item"
+      },
+      "speed_upgrade": {
+         "textures": "textures/mobblocks/ts/items/parts/speed_upgrade"
+      },
+      "health_upgrade": {
+         "textures": "textures/mobblocks/ts/items/parts/health_upgrade"
+      },
+      "wilting_spinach": {
+         "textures": "textures/mobblocks/ts/items/food/spinach.png"
+      },
+      "slimy_spinach": {
+         "textures": "textures/mobblocks/ts/items/food/spinach.png"
+      },
+      "musty_lentil": {
+         "textures": "textures/mobblocks/ts/items/food/lentil.png"
+      },
+      "moldy_lentil": {
+         "textures": "textures/mobblocks/ts/items/food/lentil.png"
+      },
+      "bruised_tomato": {
+         "textures": "textures/mobblocks/ts/items/food/tomato.png"
+      },
+      "rotten_tomato": {
+         "textures": "textures/mobblocks/ts/items/food/tomato.png"
+      },
+      "soft_broad_bean": {
+         "textures": "textures/mobblocks/ts/items/food/broad_bean.png"
+      },
+      "rotten_broad_bean": {
+         "textures": "textures/mobblocks/ts/items/food/broad_bean.png"
+      },
+      "stale_peanut": {
+         "textures": "textures/mobblocks/ts/items/food/peanut.png"
+      },
+      "rancid_peanut": {
+         "textures": "textures/mobblocks/ts/items/food/peanut.png"
+      },
+      "slingshot_boom": {
+         "textures": "textures/mobblocks/ts/items/slingshot_boom.png"
+      },
+      "slingshot_mega": {
+         "textures": "textures/mobblocks/ts/items/slingshot_mega.png"
+      },
+      "slingshot": {
+         "textures": "textures/mobblocks/ts/items/slingshot.png"
+      }
+   }
+}

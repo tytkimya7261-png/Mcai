@@ -1,0 +1,35 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.zombie.pas": {
+      "geometry":  "geometry.default",
+      "materials": [{ "*": "material.default" }],
+      "textures":  ["texture.default"]
+    },
+    "controller.render.pas.custom": {
+      "geometry":  "geometry.default",
+      "materials": [{ "*": "material.default" }],
+      "textures":  ["texture.default"]
+    },
+    "controller.render.pas.horde_zombie": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.var1",
+            "Texture.var2",
+            "Texture.var3",
+            "Texture.var4",
+            "Texture.var5",
+            "Texture.var6",
+            "Texture.var7",
+            "Texture.var8"
+          ]
+        }
+      },
+      "geometry":  "geometry.default",
+      "materials": [{ "*": "material.default" }],
+      "textures":  ["Array.skins[query.variant]"]
+    }
+  }
+}

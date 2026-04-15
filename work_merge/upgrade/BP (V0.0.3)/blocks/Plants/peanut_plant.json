@@ -1,0 +1,116 @@
+{
+   "format_version": "1.21.0",
+   "minecraft:block": {
+      "description": {
+         "identifier": "mbl_ts:peanut_plant",
+         "states": {
+            "mbl_ts:level": [
+               0,
+               1,
+               2
+            ]
+         }
+      },
+      "components": {
+         "minecraft:geometry": "geometry.generic_crop",
+         "minecraft:placement_filter": {
+            "conditions": [
+               {
+                  "allowed_faces": [
+                     "up"
+                  ],
+                  "block_filter": [
+                     "farmland"
+                  ]
+               }
+            ]
+         },
+         "minecraft:collision_box": false,
+         "minecraft:custom_components": [
+            "mbl_ts:crop_handler"
+         ],
+         "minecraft:light_dampening": 0,
+         "minecraft:tick": {
+            "looping": true,
+            "interval_range": [
+               200,
+               200
+            ]
+         }
+      },
+      "permutations": [
+         {
+            "condition": "query.block_state('mbl_ts:level') == 0",
+            "components": {
+               "minecraft:material_instances": {
+                  "*": {
+                     "texture": "peanut_plant_stage_1",
+                     "render_method": "alpha_test"
+                  }
+               },
+               "minecraft:loot": "loot_tables/mobblocks/ts/blocks/plants/peanut/seeds.json",
+               "minecraft:selection_box": {
+                  "origin": [
+                     -8,
+                     0,
+                     -8
+                  ],
+                  "size": [
+                     16,
+                     4,
+                     16
+                  ]
+               }
+            }
+         },
+         {
+            "condition": "query.block_state('mbl_ts:level') == 1",
+            "components": {
+               "minecraft:material_instances": {
+                  "*": {
+                     "texture": "peanut_plant_stage_2",
+                     "render_method": "alpha_test"
+                  }
+               },
+               "minecraft:loot": "loot_tables/mobblocks/ts/blocks/plants/peanut/seeds.json",
+               "minecraft:selection_box": {
+                  "origin": [
+                     -8,
+                     0,
+                     -8
+                  ],
+                  "size": [
+                     16,
+                     8,
+                     16
+                  ]
+               }
+            }
+         },
+         {
+            "condition": "query.block_state('mbl_ts:level') == 2",
+            "components": {
+               "minecraft:material_instances": {
+                  "*": {
+                     "texture": "peanut_plant_stage_3",
+                     "render_method": "alpha_test"
+                  }
+               },
+               "minecraft:loot": "loot_tables/mobblocks/ts/blocks/plants/peanut/plant.json",
+               "minecraft:selection_box": {
+                  "origin": [
+                     -8,
+                     0,
+                     -8
+                  ],
+                  "size": [
+                     16,
+                     12,
+                     16
+                  ]
+               }
+            }
+         }
+      ]
+   }
+}

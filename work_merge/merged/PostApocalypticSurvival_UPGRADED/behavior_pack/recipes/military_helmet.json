@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pas:military_helmet_recipe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "III",
+      "ILI",
+      "   "
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "L": { "item": "minecraft:leather" }
+    },
+    "result": {
+      "item": "pas:military_helmet",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "pas:ammo_9mm",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pas:ammo_5_56",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pas:ammo_12gauge",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pas:ammo_7_62",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pas:ammo_338",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gunpowder",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "pas:ak47",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:m4a1",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "pas:m16a4",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:hk416a5",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:scar_h",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:fn_fal",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "pas:m870",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:spas_12",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:m700",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:m107",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "pas:ai_awp",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "pas:military_helmet",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "pas:steel_vest",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "pas:antidote",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "pas:journal_military",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

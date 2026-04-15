@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mypack:recipe_ar_15"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      [
+        "I",
+        "I",
+        "W"
+      ],
+      [
+        "I",
+        "R",
+        "I"
+      ],
+      [
+        "I",
+        "I",
+        "W"
+      ]
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "minecraft:redstone_dust"
+      },
+      "W": {
+        "item": "minecraft:dark_oak_wood"
+      }
+    },
+    "result": {
+      "item": "mypack:ar_15"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+   "format_version":"1.20.50",
+   "minecraft:item":{
+      "description":{
+         "identifier":"mbl_ts:backpack_white_item"
+      },
+      "components": {
+         "minecraft:icon": "backpack_white",
+         "minecraft:display_name": {
+            "value": "item.mbl_ts:backpack_white_item.name"
+         },
+         "minecraft:max_stack_size": 1,
+         "minecraft:use_modifiers": {
+            "movement_modifier": 0.9,
+            "use_duration": 1
+         }
+      }
+   }
+}

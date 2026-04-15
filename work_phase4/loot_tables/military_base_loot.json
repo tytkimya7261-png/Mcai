@@ -1,0 +1,166 @@
+{
+  "pools": [
+    {
+      "name": "military_weapons",
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "mcai:ar15",
+          "weight": 60
+        },
+        {
+          "type": "item",
+          "name": "mcai:m4a1",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "mcai:ak47",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "mcai:minigun",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "name": "military_ammo",
+      "rolls": {
+        "min": 4,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "mcai:magazine_556",
+          "weight": 90
+        },
+        {
+          "type": "item",
+          "name": "mcai:magazine_762",
+          "weight": 80
+        },
+        {
+          "type": "item",
+          "name": "mcai:ammo_556",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 20,
+                "max": 60
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mcai:ammo_762",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 15,
+                "max": 40
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "military_armor",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "mcai:military_helmet_enhanced",
+          "weight": 80
+        },
+        {
+          "type": "item",
+          "name": "mcai:steel_vest_enhanced",
+          "weight": 90
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 70
+        }
+      ]
+    },
+    {
+      "name": "military_medical",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "mcai:bandage_item",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "military_rare",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mcai:antidote",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

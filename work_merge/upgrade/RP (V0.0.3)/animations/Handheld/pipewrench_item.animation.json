@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_pipewrench.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [98.36204, 52.89323, -76.06775],
+					"position": [0, 2, 1]
+				}
+			}
+		},
+		"animation.mbl_pipewrench.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, 0, 0],
+					"position": [0, 11, -9],
+					"scale": 0.75
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		}
+	}
+}

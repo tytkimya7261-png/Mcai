@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"mbl_ts:rottweiler_body",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/mobblocks/ts/entity/animals/rottweiler/rottweiler",
+            "skeleton":"textures/mobblocks/ts/entity/animals/rottweiler/skeleton"
+         },
+         "geometry":{
+            "default":"geometry.mbl_dog"
+         },
+         "animations":{
+            "dead_1":"animation.dog_body.dead_1"
+         },
+         "scripts":{
+            "animate":[
+               {
+                  "dead_1":"query.is_sheared"
+               }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.rottweiler_body"
+         ],
+         "enable_attachables":true
+      }
+   }
+}

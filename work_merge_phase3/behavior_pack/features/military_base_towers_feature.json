@@ -1,0 +1,14 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "pas:military_base_towers"
+    },
+    "features": [
+      [100, "pas:military_watchtower_1"],
+      [100, "pas:military_watchtower_2"],
+      [100, "pas:military_watchtower_3"],
+      [100, "pas:military_watchtower_4"]
+    ]
+  }
+}

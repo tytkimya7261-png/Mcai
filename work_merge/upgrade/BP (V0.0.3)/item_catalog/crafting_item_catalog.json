@@ -1,0 +1,614 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:chair_black",
+              "name": "mbl_ts:decoration"
+            },
+            "items": [
+              "mbl_ts:chair_black",
+              "mbl_ts:chair_black_fallen",
+              "mbl_ts:chair_black_fallen_2",
+              "mbl_ts:chair_green",
+              "mbl_ts:chair_green_fallen",
+              "mbl_ts:chair_green_fallen_2",
+              "mbl_ts:chair_gray",
+              "mbl_ts:chair_gray_fallen",
+              "mbl_ts:chair_gray_fallen_2",
+              "mbl_ts:chair_red",
+              "mbl_ts:chair_red_fallen",
+              "mbl_ts:chair_red_fallen_2",
+              "mbl_ts:chair_blue",
+              "mbl_ts:chair_blue_fallen",
+              "mbl_ts:chair_blue_fallen_2",
+              "mbl_ts:shelving_rack_oak",
+              "mbl_ts:shelving_rack_spruce",
+              "mbl_ts:shelving_rack_birch",
+              "mbl_ts:shelving_rack_jungle",
+              "mbl_ts:shelving_rack_acacia",
+              "mbl_ts:shelving_rack_dark_oak",
+              "mbl_ts:shelving_rack_mangrove",
+              "mbl_ts:shelving_rack_fallen_oak",
+              "mbl_ts:shelving_rack_fallen_spruce",
+              "mbl_ts:shelving_rack_fallen_birch",
+              "mbl_ts:shelving_rack_fallen_jungle",
+              "mbl_ts:shelving_rack_fallen_acacia",
+              "mbl_ts:shelving_rack_fallen_dark_oak",
+              "mbl_ts:shelving_rack_fallen_mangrove",
+              "mbl_ts:skeleton_sitting",
+              "mbl_ts:floor_stones",
+              "mbl_ts:newspaper",
+              "mbl_ts:trash_can_fallen",
+              "mbl_ts:iron_bars_rusty",
+              "mbl_ts:barrier_1",
+              "mbl_ts:barrier_2",
+              "mbl_ts:barrier_3",
+              "mbl_ts:razor_wire",
+              "mbl_ts:spike_barricade",
+              "mbl_ts:radio",
+              "mbl_ts:metal_table"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:marble_creation_bench",
+              "name": "mbl_ts:work_benches"
+            },
+            "items": [
+              "mbl_ts:marble_creation_bench",
+              "mbl_ts:deconstruction_bench",
+              "mbl_ts:distillation_table",
+              "mbl_ts:packaging_table"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:toolbox",
+              "name": "mbl_ts:loot_chests"
+            },
+            "items": [
+              "mbl_ts:toolbox",
+              "mbl_ts:first_aid_kit",
+              "mbl_ts:gray_backpack_block",
+              "mbl_ts:brown_backpack_block",
+              "mbl_ts:red_backpack_block",
+              "mbl_ts:green_backpack_block",
+              "mbl_ts:blue_backpack_block",
+              "mbl_ts:wooden_crate_oak",
+              "mbl_ts:wooden_crate_spruce",
+              "mbl_ts:wooden_crate_birch",
+              "mbl_ts:wooden_crate_jungle",
+              "mbl_ts:wooden_crate_acacia",
+              "mbl_ts:draws_oak",
+              "mbl_ts:draws_spruce",
+              "mbl_ts:draws_birch",
+              "mbl_ts:draws_jungle",
+              "mbl_ts:draws_acacia",
+              "mbl_ts:draws_dark_oak",
+              "mbl_ts:draws_mangrove",
+              "mbl_ts:draws_cherry",
+              "mbl_ts:draws_pale",
+              "mbl_ts:cupboard_oak",
+              "mbl_ts:cupboard_spruce",
+              "mbl_ts:cupboard_birch",
+              "mbl_ts:cupboard_jungle",
+              "mbl_ts:cupboard_acacia",
+              "mbl_ts:cupboard_dark_oak",
+              "mbl_ts:cupboard_mangrove",
+              "mbl_ts:cupboard_cherry",
+              "mbl_ts:cupboard_pale",
+              "mbl_ts:trash_can"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:bauxite_ore",
+              "name": "mbl_ts:ores"
+            },
+            "items": [
+              "mbl_ts:bauxite_ore",
+              "mbl_ts:shale",
+              "mbl_ts:shale_oil",
+              "mbl_ts:zinc_ore",
+              "mbl_ts:nickel_ore",
+              "mbl_ts:deepslate_nickel_ore",
+              "mbl_ts:pegmatite_ore",
+              "mbl_ts:aluminium_block"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:backpack_white_item",
+              "name": "mbl_ts:loot_backpacks"
+            },
+            "items": [
+              "mbl_ts:backpack_white_item",
+              "mbl_ts:backpack_silver_item",
+              "mbl_ts:backpack_gray_item",
+              "mbl_ts:backpack_black_item",
+              "mbl_ts:backpack_brown_item",
+              "mbl_ts:backpack_red_item",
+              "mbl_ts:backpack_orange_item",
+              "mbl_ts:backpack_yellow_item",
+              "mbl_ts:backpack_lime_item",
+              "mbl_ts:backpack_green_item",
+              "mbl_ts:backpack_cyan_item",
+              "mbl_ts:backpack_light_blue_item",
+              "mbl_ts:backpack_blue_item",
+              "mbl_ts:backpack_purple_item",
+              "mbl_ts:backpack_magenta_item",
+              "mbl_ts:backpack_pink_item"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:electrical_scrap",
+              "name": "mbl_ts:electronics"
+            },
+            "items": [
+              "mbl_ts:electrical_scrap",
+              "mbl_ts:mp3_player_black",
+              "mbl_ts:mp3_player_green",
+              "mbl_ts:mp3_player_red",
+              "mbl_ts:mp3_player_white",
+              "mbl_ts:playpod_controller_black",
+              "mbl_ts:playpod_controller_red",
+              "mbl_ts:playpod_controller_white",
+              "mbl_ts:tv_controller",
+              "mbl_ts:vector_controller_blue",
+              "mbl_ts:vector_controller_green",
+              "mbl_ts:vector_controller_red",
+              "mbl_ts:vector_controller_yellow",
+              "mbl_ts:ycube_controller_black",
+              "mbl_ts:ycube_controller_blue",
+              "mbl_ts:ycube_controller_white",
+              "mbl_ts:battery"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:block_one_dvd",
+              "name": "mbl_ts:movie_posters"
+            },
+            "items": [
+              "mbl_ts:block_one_dvd",
+              "mbl_ts:fighting_panda_dvd",
+              "mbl_ts:school_of_cobble_dvd",
+              "mbl_ts:shallow_steve_dvd",
+              "mbl_ts:super_creeper_bro_dvd",
+              "mbl_ts:wm_season_1",
+              "mbl_ts:wm_season_2",
+              "mbl_ts:wm_season_3",
+              "mbl_ts:wm_season_4",
+              "mbl_ts:wm_season_5",
+              "mbl_ts:wm_season_6",
+              "mbl_ts:wm_season_7",
+              "mbl_ts:wm_season_8",
+              "mbl_ts:wm_season_9",
+              "mbl_ts:wm_season_10",
+              "mbl_ts:wm_season_11",
+              "mbl_ts:blocks_28_later_dvd",
+              "mbl_ts:chickens_came_back_dvd",
+              "mbl_ts:chunks_28_later_dvd",
+              "mbl_ts:dawn_of_the_witches_dvd",
+              "mbl_ts:day_of_the_zombies_dvd",
+              "mbl_ts:minecart_to_the_end_dvd",
+              "mbl_ts:night_of_the_mobs_dvd",
+              "mbl_ts:the_return_of_the_skeleton_dvd",
+              "mbl_ts:villagers_of_the_dead_dvd",
+              "mbl_ts:wither_of_darkness_dvd"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:baseball_bat",
+              "name": "mbl_ts:melee"
+            },
+            "items": [
+              "mbl_ts:baseball_bat",
+              "mbl_ts:chainsaw",
+              "mbl_ts:claw_hammer",
+              "mbl_ts:copper_pipe",
+              "mbl_ts:crowbar",
+              "mbl_ts:cutting_board",
+              "mbl_ts:firefighter_axe",
+              "mbl_ts:flamethrower",
+              "mbl_ts:frying_pan",
+              "mbl_ts:golf_club",
+              "mbl_ts:hammer",
+              "mbl_ts:katana",
+              "mbl_ts:kitchen_knife",
+              "mbl_ts:metal_bat",
+              "mbl_ts:nailer",
+              "mbl_ts:pipe_wrench",
+              "mbl_ts:razor_wire_bat",
+              "mbl_ts:screwdriver",
+              "mbl_ts:sledge_hammer",
+              "mbl_ts:spanner",
+              "mbl_ts:slingshot",
+              "mbl_ts:slingshot_mega",
+              "mbl_ts:slingshot_boom",
+              "mbl_ts:marble",
+              "mbl_ts:mega_marble",
+              "mbl_ts:boom_marble",
+              "mbl_ts:chainsaw_active",
+              "mbl_ts:flamethrower_active"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:back_wheel",
+              "name": "mbl_ts:vehicle_parts"
+            },
+            "items": [
+              "mbl_ts:back_wheel",
+              "mbl_ts:bicycle_frame",
+              "mbl_ts:front_wheel",
+              "mbl_ts:tyre_part_1",
+              "mbl_ts:tyre_part_2",
+              "mbl_ts:tyre_part_3",
+              "mbl_ts:engine_part_1",
+              "mbl_ts:engine_part_2",
+              "mbl_ts:engine_part_3",
+              "mbl_ts:health_upgrade",
+              "mbl_ts:speed_upgrade",
+              "mbl_ts:canister",
+              "mbl_ts:gasoline",
+              "mbl_ts:fuel_item"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:paintbrush_black",
+              "name": "mbl_ts:paint_brushes"
+            },
+            "items": [
+              "mbl_ts:paintbrush_black",
+              "mbl_ts:paintbrush_blue",
+              "mbl_ts:paintbrush_brown",
+              "mbl_ts:paintbrush_cyan",
+              "mbl_ts:paintbrush_gray",
+              "mbl_ts:paintbrush_green",
+              "mbl_ts:paintbrush_light_blue",
+              "mbl_ts:paintbrush_light_gray",
+              "mbl_ts:paintbrush_lime",
+              "mbl_ts:paintbrush_magenta",
+              "mbl_ts:paintbrush_orange",
+              "mbl_ts:paintbrush_pink",
+              "mbl_ts:paintbrush_purple",
+              "mbl_ts:paintbrush_red",
+              "mbl_ts:paintbrush_white",
+              "mbl_ts:paintbrush_yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:anti_toxin_brew",
+              "name": "mbl_ts:medical_supplies"
+            },
+            "items": [
+              "mbl_ts:anti_toxin_brew",
+              "mbl_ts:stamina_brew",
+              "mbl_ts:mighty_healing_brew",
+              "mbl_ts:power_brew",
+              "mbl_ts:purity_brew",
+              "mbl_ts:valor_brew",
+              "mbl_ts:vitality_brew",
+              "mbl_ts:rag",
+              "mbl_ts:bandage",
+              "mbl_ts:healing_brace",
+              "mbl_ts:energy_pack"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:fizzy_water",
+              "name": "mbl_ts:vaccines"
+            },
+            "items": [
+              "mbl_ts:fizzy_water",
+              "mbl_ts:sweet_yeast_mix",
+              "mbl_ts:bottle_of_zombie_goo",
+              "mbl_ts:vial_of_netherwart_solution",
+              "mbl_ts:zombie_vaccine",
+              "mbl_ts:dried_nether_wart",
+              "mbl_ts:yeast",
+              "mbl_ts:zombie_heart"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:bruised_apple",
+              "name": "mbl_ts:rotten_food"
+            },
+            "items": [
+              "mbl_ts:bruised_apple",
+              "mbl_ts:cold_baked_potato",
+              "mbl_ts:cold_mushroom_stew",
+              "mbl_ts:cold_rabbit",
+              "mbl_ts:cold_rabbit_stew",
+              "mbl_ts:cold_steak",
+              "mbl_ts:cracked_egg",
+              "mbl_ts:dead_glow_berries",
+              "mbl_ts:cold_porkchop",
+              "mbl_ts:dry_pumpkin_pie",
+              "mbl_ts:dull_glow_berries",
+              "mbl_ts:fermented_beetroot_soup",
+              "mbl_ts:gamey_rabbit",
+              "mbl_ts:gamey_rabbit_stew",
+              "mbl_ts:mouldy_sweet_berries",
+              "mbl_ts:mouldy_bread",
+              "mbl_ts:mouldy_cookie",
+              "mbl_ts:mouldy_potato",
+              "mbl_ts:cold_mutton",
+              "mbl_ts:cold_chicken",
+              "mbl_ts:rotted_wheat",
+              "mbl_ts:rotten_apple",
+              "mbl_ts:rotten_beef",
+              "mbl_ts:rotten_beetroot",
+              "mbl_ts:rotten_cod",
+              "mbl_ts:rotten_egg",
+              "mbl_ts:rotten_mutton",
+              "mbl_ts:rotten_salmon",
+              "mbl_ts:wilting_spinach",
+              "mbl_ts:slimy_spinach",
+              "mbl_ts:musty_lentil",
+              "mbl_ts:moldy_lentil",
+              "mbl_ts:bruised_tomato",
+              "mbl_ts:rotten_tomato",
+              "mbl_ts:soft_broad_bean",
+              "mbl_ts:rotten_broad_bean",
+              "mbl_ts:stale_peanut",
+              "mbl_ts:rancid_peanut",
+              "mbl_ts:slimy_carrot",
+              "mbl_ts:slimy_cod",
+              "mbl_ts:slimy_melon",
+              "mbl_ts:soft_cookie",
+              "mbl_ts:sour_beetroot_soup",
+              "mbl_ts:sour_milk_bucket",
+              "mbl_ts:spoiled_mushroom_stew",
+              "mbl_ts:spoiled_pie",
+              "mbl_ts:rotten_porkchop",
+              "mbl_ts:spoiled_salmon",
+              "mbl_ts:spoiled_cod",
+              "mbl_ts:spoiling_milk_bucket",
+              "mbl_ts:spoiling_wheat",
+              "mbl_ts:sprouting_potato",
+              "mbl_ts:squashed_berries",
+              "mbl_ts:stale_beef",
+              "mbl_ts:stale_bread",
+              "mbl_ts:stale_melon",
+              "mbl_ts:stale_mutton",
+              "mbl_ts:stale_porkchop",
+              "mbl_ts:stale_rabbit",
+              "mbl_ts:slimy_salmon",
+              "mbl_ts:wilted_carrot",
+              "mbl_ts:wrinkled_beetroot"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:empty_packet",
+              "name": "mbl_ts:trade_items_packaged"
+            },
+            "items": [
+              "mbl_ts:empty_packet",
+              "mbl_ts:broad_bean_seed",
+              "mbl_ts:lentil_seed",
+              "mbl_ts:peanut_seed",
+              "mbl_ts:spinach_seed",
+              "mbl_ts:tomato_seed",
+              "mbl_ts:broad_bean",
+              "mbl_ts:lentil",
+              "mbl_ts:peanut",
+              "mbl_ts:spinach",
+              "mbl_ts:tomato",
+              "mbl_ts:packaged_beetroot",
+              "mbl_ts:packaged_carrot",
+              "mbl_ts:packaged_potato",
+              "mbl_ts:packaged_broad_bean",
+              "mbl_ts:packaged_lentil",
+              "mbl_ts:packaged_peanut",
+              "mbl_ts:packaged_spinach",
+              "mbl_ts:packaged_tomato",
+              "mbl_ts:dirty_plastic",
+              "mbl_ts:plastic"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:tin_of_beans",
+              "name": "mbl_ts:canned_food"
+            },
+            "items": [
+              "mbl_ts:tin_of_beans",
+              "mbl_ts:tin_of_beans_open",
+              "mbl_ts:tin_of_beef_ravioli",
+              "mbl_ts:tin_of_beef_ravioli_open",
+              "mbl_ts:tin_of_beef_stew",
+              "mbl_ts:tin_of_beef_stew_open",
+              "mbl_ts:tin_of_carbonara",
+              "mbl_ts:tin_of_carbonara_open",
+              "mbl_ts:tin_of_chicken_curry",
+              "mbl_ts:tin_of_chicken_curry_open",
+              "mbl_ts:tin_of_chicken_soup",
+              "mbl_ts:tin_of_chicken_soup_open",
+              "mbl_ts:tin_of_custard",
+              "mbl_ts:tin_of_custard_open",
+              "mbl_ts:tin_of_macaroni_cheese",
+              "mbl_ts:tin_of_macaroni_cheese_open",
+              "mbl_ts:tin_of_mushroom_soup",
+              "mbl_ts:tin_of_mushroom_soup_open",
+              "mbl_ts:tin_of_oxtail_soup",
+              "mbl_ts:tin_of_oxtail_soup_open",
+              "mbl_ts:tin_of_spaghetti_hoops",
+              "mbl_ts:tin_of_spaghetti_hoops_open",
+              "mbl_ts:tin_of_stewed_steak",
+              "mbl_ts:tin_of_stewed_steak_open",
+              "mbl_ts:tin_of_tomato_soup",
+              "mbl_ts:tin_of_tomato_soup_open",
+              "mbl_ts:tin_of_vegetable_soup",
+              "mbl_ts:tin_of_vegetable_soup_open",
+              "mbl_ts:beef_jerky_original",
+              "mbl_ts:beef_jerky_original_open",
+              "mbl_ts:beef_jerky_spicy",
+              "mbl_ts:beef_jerky_spicy_open",
+              "mbl_ts:beef_jerky_teriyaki",
+              "mbl_ts:beef_jerky_teriyaki_open",
+              "mbl_ts:ramen_noodles_chicken",
+              "mbl_ts:ramen_noodles_chicken_open",
+              "mbl_ts:tin_of_dog_food",
+              "mbl_ts:dumb_bar",
+              "mbl_ts:earth_bar",
+              "mbl_ts:glazed_donut",
+              "mbl_ts:twonk_bar"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:bottle_of_water_0",
+              "name": "mbl_ts:drinks"
+            },
+            "items": [
+              "mbl_ts:bottle_of_water_0",
+              "mbl_ts:bottle_of_water_1",
+              "mbl_ts:bottle_of_water_2",
+              "mbl_ts:bottle_of_water_3",
+              "mbl_ts:bottle_of_water_4",
+              "mbl_ts:bottle_of_water_dirty_1",
+              "mbl_ts:bottle_of_water_dirty_2",
+              "mbl_ts:bottle_of_water_dirty_3",
+              "mbl_ts:bottle_of_water_dirty_4",
+              "mbl_ts:cherry_king_kola",
+              "mbl_ts:cherry_popso",
+              "mbl_ts:dr_poppers",
+              "mbl_ts:freshers_fruit_twist",
+              "mbl_ts:freshers_orange",
+              "mbl_ts:king_kola",
+              "mbl_ts:popso_max",
+              "mbl_ts:popso_max_lime",
+              "mbl_ts:popso",
+              "mbl_ts:vanilla_king_kola",
+              "mbl_ts:crimson_buffalo",
+              "mbl_ts:midway_energy"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "mbl_ts:parachute",
+              "name": "mbl_ts:misc"
+            },
+            "items": [
+              "mbl_ts:parachute",
+              "mbl_ts:small_rock",
+              "mbl_ts:flashlight_item",
+              "mbl_ts:walkie_talkie",
+              "mbl_ts:empty_food_tin",
+              "mbl_ts:empty_drink_tin",
+              "mbl_ts:crude_oil",
+              "mbl_ts:raw_aluminium",
+              "mbl_ts:aluminium_ingot",
+              "mbl_ts:lithium",
+              "mbl_ts:linen_scrap",
+              "mbl_ts:nails",
+              "mbl_ts:melted_glass",
+              "mbl_ts:raw_nickel",
+              "mbl_ts:nickel_ingot",
+              "mbl_ts:raw_zinc",
+              "mbl_ts:zinc_ingot",
+              "mbl_ts:unrefined_steel",
+              "mbl_ts:steel_ingot",
+              "mbl_ts:titanium_scrap",
+              "mbl_ts:titanium_ingot"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

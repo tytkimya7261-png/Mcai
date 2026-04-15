@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pas:infected_wolf",
+      "materials": {
+        "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/infected_wolf"
+      },
+      "geometry": {
+        "default": "geometry.fleshdog"
+      },
+      "animations": {
+        "idle_anim": "fleshdog.idle",
+        "move": "fleshdog.walk",
+        "attack_anim": "fleshdog.attack"
+      },
+      "animation_controllers": [
+        {
+          "root": "controller.animation.pas.flesh_animal"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.zombie.pas"
+      ],
+      "spawn_egg": {
+        "base_color": "#4A1500",
+        "overlay_color": "#CC2200"
+      }
+    }
+  }
+}

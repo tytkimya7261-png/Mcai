@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pas:rpg7",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "RPG-7"
+      },
+      "minecraft:icon": {
+        "texture": "rpg7"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "minecraft:tags": {
+        "tags": [
+          "pas:gun",
+          "pas:launcher"
+        ]
+      },
+      "minecraft:damage": 20,
+      "minecraft:enchantable": {
+        "value": 50
+      }
+    }
+  }
+}

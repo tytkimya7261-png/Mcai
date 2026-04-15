@@ -1,0 +1,17 @@
+{
+   "format_version":"1.10.0",
+   "animation_controllers":{
+      "controller.animation.zombie_crawler_corpse":{
+         "initial_state":"pose_selection",
+         "states":{
+            "pose_selection":{
+               "animations":[
+                  {
+                     "corpse_pose_0":"query.property('mbl_ts:corpse_pose') >= 0"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

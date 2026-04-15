@@ -1,0 +1,35 @@
+{
+   "format_version":"1.10",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"mbl_ts:paintbrush_yellow",
+         "materials":{
+            "default":"entity_alphatest"
+         },
+         "textures":{
+            "default":"textures/mobblocks/ts/items/paintbrushes/paintbrush_yellow"
+         },
+         "scripts":{
+            "animate":["drip_main_hand",
+               {
+                  "first_person_main_hand":"c.is_first_person"
+               },
+               {
+                  "third_person_main_hand":"!c.is_first_person"
+               }
+            ]
+         },
+         "animations":{ 
+            "first_person_main_hand":"animation.mbl_fireaxe.first_person_hold",
+            "drip_main_hand":"animation.mbl_paintbrust.drip",
+            "third_person_main_hand":"animation.mbl_fireaxe.third_person_hold"
+         },
+         "geometry":{
+            "default":"geometry.paintbrush_item"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

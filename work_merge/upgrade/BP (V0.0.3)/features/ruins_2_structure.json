@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "mbl_ts:ruins_2_structure"
+    },
+    "places_block": "mbl_ts:structure_ruins_2",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": false,
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:grass_block",
+      "minecraft:dirt",
+      "minecraft:water"
+    ]
+  }
+}

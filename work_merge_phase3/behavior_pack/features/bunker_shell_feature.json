@@ -1,0 +1,26 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:structure_feature": {
+    "description": {
+      "identifier": "pas:bunker_shell_feature"
+    },
+    "structures": [
+      {
+        "structure": "pas:build1",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "weight": 1,
+        "placement_block": "minecraft:stone_bricks"
+      }
+    ],
+    "bounding_box": [
+      32,
+      24,
+      32
+    ],
+    "max_random_height": 8
+  }
+}

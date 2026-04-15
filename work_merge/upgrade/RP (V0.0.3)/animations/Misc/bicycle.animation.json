@@ -1,0 +1,89 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_bicycle.ride": {
+			"loop": true,
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"Wheel": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [90, 0, 0],
+						"0.52": [180, 0, 0],
+						"0.76": [270, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"back_wheel": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [90, 0, 0],
+						"0.52": [180, 0, 0],
+						"0.76": [270, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"big_chain": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [0, -90, 0],
+						"0.52": [0, -180, 0],
+						"0.76": [0, -270, 0],
+						"1.0": [0, -360, 0]
+					}
+				},
+				"bicycle": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.48": [0, -3, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"front": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"back": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"pedal": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"bars": {
+					"rotation": [0, "math.clamp(query.yaw_speed, -30, 30)", 0]
+				}
+			}
+		},
+		"animation.mbl_bicycle.no_rider_wheels": {
+			"loop": true,
+			"animation_length": 2.75,
+			"bones": {
+				"bicycle": {
+					"rotation": [0, 0, 70],
+					"position": [-42, 0, 0]
+				},
+				"bike": {
+					"rotation": [0, 0, -62.5],
+					"position": [7, 0, 0]
+				}
+			}
+		},
+		"animation.mbl_bicycle.no_rider_no_wheels": {
+			"loop": true,
+			"animation_length": 2.75,
+			"bones": {
+				"bicycle": {
+					"rotation": [0, 0, 70],
+					"position": [-42, 0, 0]
+				},
+				"pedal": {
+					"rotation": [-90, 0, 0]
+				},
+				"bike": {
+					"rotation": [8.5, 0, 0],
+					"position": [0, -3.6, 1.6]
+				}
+			}
+		}
+	}
+}

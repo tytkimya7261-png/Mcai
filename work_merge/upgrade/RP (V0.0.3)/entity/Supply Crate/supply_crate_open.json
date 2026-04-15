@@ -1,0 +1,30 @@
+{
+   "format_version": "1.10.0",
+   "minecraft:client_entity": {
+      "description": {
+         "identifier": "mbl_ts:supply_crate_open",
+         "materials": {
+            "default": "entity_emissive_alpha"
+         },
+         "textures": {
+            "default": "textures/mobblocks/ts/entity/supply_crate/supply_crate"
+         },
+         "animations": {
+            "falling": "animation.supply_crate.falling"
+         },
+         "scripts": {
+            "animate": [
+               {
+                  "falling": "q.variant == 100"
+               }
+            ]
+         },
+         "geometry": {
+            "default": "geometry.supply_crate_open"
+         },
+         "render_controllers": [
+            "controller.render.default"
+         ]
+      }
+   }
+}

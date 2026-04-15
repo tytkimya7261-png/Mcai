@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.50",
+   "minecraft:item":{
+      "description":{
+         "identifier":"mbl_ts:night_of_the_mobs_dvd"
+      },
+      "components": {
+         "minecraft:max_stack_size": 64,
+         "minecraft:icon": {
+            "texture": "night_of_the_mobs_dvd"
+         },
+         "minecraft:block_placer": {"block": "mbl_ts:poster_night_of_the_mobs",
+         "replace_block_item": true
+      },
+         "minecraft:display_name": {
+            "value": "item.mbl_ts:night_of_the_mobs_dvd.name"
+         }
+      }
+   }
+}

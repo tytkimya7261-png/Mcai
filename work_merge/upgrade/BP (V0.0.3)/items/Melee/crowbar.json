@@ -1,0 +1,36 @@
+{
+   "format_version": "1.20.50",
+   "minecraft:item": {
+      "description": {
+         "identifier": "mbl_ts:crowbar"
+      },
+      "components": {
+         "minecraft:max_stack_size": 1,
+                  "minecraft:display_name": {
+            "value": "item.mbl_ts:crowbar.name"
+         },
+         "minecraft:hand_equipped": true,
+         "minecraft:durability": {
+            "max_durability": 355
+         },
+                           "minecraft:enchantable": {
+            "slot": "sword",
+            "value": 10
+         },
+         "minecraft:damage": {
+            "value": 5
+         },
+         "minecraft:icon": "crowbar",
+         "minecraft:repairable": {
+            "repair_items": [
+               {
+                  "items": [
+                     "mbl_ts:steel_ingot"
+                  ],
+                  "repair_amount": 96
+               }
+            ]
+         }
+      }
+   }
+}

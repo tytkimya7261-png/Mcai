@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_spanner.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [152.67295, -4.34712, -10.56676],
+					"position": [-5, 7, -1],
+					"scale": 1.2
+				}
+			}
+		},
+		"animation.mbl_spanner.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90.23155, 0.10851, -90.0848],
+					"position": [0, 13, -4],
+					"scale": 0.75
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:mega_marble_recipe"
+      },
+      "tags": [
+         "marble_creation_bench"
+      ],
+      "pattern": [
+         "AAA",
+         "ACA",
+         "AAA"
+      ],
+      "key": {
+         "A": {
+            "item": "mbl_ts:melted_glass"
+         },
+         "C": {
+            "item": "minecraft:light_blue_dye"
+         }
+      },
+      "unlock": [
+         {
+            "item": "mbl_ts:melted_glass"
+         }
+      ],
+      "result": [
+         {
+            "item": "mbl_ts:mega_marble",
+            "count": 9
+         }
+      ]
+   }
+}

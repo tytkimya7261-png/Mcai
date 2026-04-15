@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "mbl_ts:shale_oil_feature"
+		},
+		"count": 18,
+		"replace_rules": [
+			{
+				"places_block": "mbl_ts:shale_oil",
+				"may_replace": [
+						"minecraft:sandstone", "minecraft:gravel", "minecraft:clay", "minecraft:mud", "minecraft:hardened_clay"
+				]
+			}
+		]
+	}
+}

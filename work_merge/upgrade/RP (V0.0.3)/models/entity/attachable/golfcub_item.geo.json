@@ -1,0 +1,80 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.golfclub_item",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0.02362, 10.67554, -0.18739],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{
+							"origin": [-0.47638, -0.49113, -0.52072],
+							"size": [1, 4, 1],
+							"uv": {
+								"north": {"uv": [2, 4], "uv_size": [1, 4]},
+								"east": {"uv": [3, 4], "uv_size": [1, 4]},
+								"south": {"uv": [4, 4], "uv_size": [1, 4]},
+								"west": {"uv": [5, 4], "uv_size": [1, 4]},
+								"up": {"uv": [7, 4], "uv_size": [1, 1]},
+								"down": {"uv": [7, 6], "uv_size": [1, -1]}
+							}
+						},
+						{
+							"origin": [0.02362, 3.50887, -0.52072],
+							"size": [0, 15, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 15]},
+								"east": {"uv": [0, 0], "uv_size": [1, 15]},
+								"south": {"uv": [0, 0], "uv_size": [0, 15]},
+								"west": {"uv": [9, 0], "uv_size": [1, 15]},
+								"up": {"uv": [0, 0], "uv_size": [0, 1]},
+								"down": {"uv": [0, 1], "uv_size": [0, -1]}
+							}
+						},
+						{
+							"origin": [-0.47638, 18.50887, -2.52072],
+							"size": [1, 2, 4],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [1, 2]},
+								"east": {"uv": [2, 0], "uv_size": [4, 2]},
+								"south": {"uv": [7, 2], "uv_size": [1, 2]},
+								"west": {"uv": [2, 2], "uv_size": [4, 2]},
+								"up": {"uv": [6, 0], "uv_size": [1, 4]},
+								"down": {"uv": [6, 8], "uv_size": [1, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "rightItem",
+					"pivot": [0, 0, 0]
+				}
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [0, 0, 0],
+					"translation": [0, 2.5, 1.75],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"thirdperson_lefthand": {
+					"rotation": [0, 0, 0],
+					"translation": [0, 2.5, 1.75],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				}
+			}
+		}
+	]
+}

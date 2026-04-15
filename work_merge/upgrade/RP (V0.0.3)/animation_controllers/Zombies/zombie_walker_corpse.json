@@ -1,0 +1,26 @@
+{
+   "format_version":"1.10.0",
+   "animation_controllers":{
+      "controller.animation.zombie_walker_corpse":{
+         "initial_state":"pose_selection",
+         "states":{
+            "pose_selection":{
+               "animations":[
+                  {
+                     "corpse_pose_0":"query.property('mbl_ts:corpse_pose') == 0"
+                  },
+                  {
+                     "corpse_pose_1":"query.property('mbl_ts:corpse_pose') == 1"
+                  },
+                  {
+                     "corpse_pose_2":"query.property('mbl_ts:corpse_pose') == 2"
+                  },
+                  {
+                     "corpse_pose_3":"query.property('mbl_ts:corpse_pose') == 3"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

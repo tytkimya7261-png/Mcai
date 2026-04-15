@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "pas:tnt_zombie",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "normal",
+          "max": "hard"
+        },
+        "minecraft:weight": { "default": 20 },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ]
+  }
+}

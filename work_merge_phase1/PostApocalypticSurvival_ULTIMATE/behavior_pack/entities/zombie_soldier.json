@@ -1,0 +1,95 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mypack:zombie_soldier",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "category": "monster",
+      "runtime_identifier": "minecraft:zombie",
+      "properties": {
+        "zombie_type": {
+          "type": "enum",
+          "values": ["soldier"],
+          "default": "soldier"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": ["zombie", "undead", "soldier", "melee"],
+      "minecraft:health": {
+        "value": 30
+      },
+      "minecraft:movement": {
+        "value": 0.35
+      },
+      "minecraft:move_speed": {
+        "value": 0.35
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": false,
+        "avoid_water": true,
+        "avoid_sun": true
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 5,
+        "target_filters": [
+          {
+            "test": "is_family",
+            "subject": "other",
+            "value": "player"
+          }
+        ],
+        "attack_speed": 1.2,
+        "track_target": true
+      },
+      "minecraft:behavior.defend_colony_target": {
+        "priority": 3
+      },
+      "minecraft:behavior.wander": {
+        "priority": 10,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:attack": {
+        "damage": [3, 4]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fire",
+            "damage_modifier": -1,
+            "deals_damage": true
+          },
+          {
+            "cause": "lava",
+            "damage_modifier": -1,
+            "deals_damage": true
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/zombie_soldier_loot.json"
+      },
+      "minecraft:despawn": {
+        "despawn_range": 128.0,
+        "min_range": 32.0
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:experience_reward": {
+        "on_death": "Math.Max(query.last_damage_dealt / 2, 1);"
+      }
+    },
+    "events": {
+      "minecraft:entity_death": {
+        "run_command": {
+          "command": "playsound mob.zombie.death @a[r=16]"
+        }
+      }
+    }
+  }
+}

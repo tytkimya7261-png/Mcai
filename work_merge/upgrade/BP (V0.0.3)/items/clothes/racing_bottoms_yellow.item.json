@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mbl_ts:racing_bottoms_yellow",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.leggings"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "racing_bottoms_yellow"
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_legs",
+				"value": 10
+			},
+			"minecraft:durability": {
+				"max_durability": 250
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs",
+				"protection": 5
+			},
+			"minecraft:display_name": {
+				"value": "item.mbl_ts:racing_bottoms_yellow.name"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"mbl_ts:linen_scrap"
+						],
+						"repair_amount": 100
+					}
+				]
+			}
+		}
+	}
+}

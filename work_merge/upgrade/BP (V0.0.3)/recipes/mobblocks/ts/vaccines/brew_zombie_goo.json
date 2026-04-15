@@ -1,0 +1,19 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_brewing_mix": {
+      "description": {
+         "identifier": "mbl_ts:brew_bottle_of_zombie_goo"
+      },
+      "tags": [
+         "brewing_stand"
+      ],
+      "unlock": [
+         {
+            "item": "minecraft:potion"
+         }
+      ],
+      "input": "minecraft:potion",
+      "reagent": "mbl_ts:zombie_heart",
+      "output": "mbl_ts:bottle_of_zombie_goo"
+   }
+}

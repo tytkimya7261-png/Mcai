@@ -1,0 +1,102 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pickup_truck.broken_0": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"pickup": {
+					"position": [0, -5, 0]
+				},
+				"hood": {
+					"rotation": [-45, 0, 0]
+				}
+			}
+		},
+		"animation.pickup_truck.broken_1": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"hood": {
+					"rotation": [-45, 0, 0]
+				}
+			}
+		},
+		"animation.pickup_truck.fixed_empty": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"hood": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.pickup_truck.fixed_full": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"hood": {
+					"rotation": [0, 0, 0]
+				},
+				"door_0": {
+					"rotation": [0, 0, 0]
+				},
+				"door_1": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.pickup_truck.car_tilt": {
+			"loop": true,
+			"bones": {
+				"pickup": {
+					"rotation": ["Math.clamp(query.property('mbl_ts:positive_car_tilt') - query.property('mbl_ts:negative_car_tilt'), -45, 45)", 0, 0],
+					"position": [
+						0,
+						"(query.property('mbl_ts:positive_car_tilt') == 0 && query.property('mbl_ts:negative_car_tilt') == 0) ? 0 : Math.clamp(query.property('mbl_ts:negative_car_tilt') * 0.5 - query.property('mbl_ts:positive_car_tilt') * 4.0, -8, -9)",
+						0
+					]
+				}
+			}
+		},
+		"animation.pickup_truck.not_riding": {
+			"loop": true,
+			"bones": {
+				"door_0": {
+					"rotation": [0, 52.5, 0]
+				},
+				"door_1": {
+					"rotation": [0, -52.5, 0]
+				}
+			}
+		},
+		"animation.pickup_truck.wheels": {
+			"loop": true,
+			"bones": {
+				"left_0": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"right_0": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"back_0": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"right_1": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"left_1": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"back_1": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"back_2": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"left_2": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"right_2": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				}
+			}
+		}
+	}
+}

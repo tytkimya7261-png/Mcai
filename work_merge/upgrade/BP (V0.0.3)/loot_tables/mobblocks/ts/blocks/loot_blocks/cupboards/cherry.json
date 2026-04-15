@@ -1,0 +1,252 @@
+{
+   "pools": [
+      {
+         "rolls": {
+            "min": 0,
+            "max": 1
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:cutting_board",
+               "weight": 35,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_beef_ravioli",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_mushroom_soup",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:beef_jerky_teriyaki",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:slimy_carrot",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 1,
+            "max": 2
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:bottle_of_water_3",
+               "weight": 75,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:rotten_egg",
+               "weight": 35,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:cold_steak",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_beef_ravioli_open",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:beef_jerky_teriyaki_open",
+               "weight": 15,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_mushroom_soup_open",
+               "weight": 75,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:stamina_brew",
+               "weight": 20,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:king_kola",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:spinach",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:dirty_plastic",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:bottle_of_water_1",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "type": "item",
+         "name": "mbl_ts:empty_food_tin",
+         "weight": 25,
+         "functions": [
+            {
+               "function": "set_count",
+               "count": {
+                  "min": 0,
+                  "max": 2
+               }
+            }
+         ]
+      }
+   ]
+}

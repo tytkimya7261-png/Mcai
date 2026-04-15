@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "mbl_ts:sports_tennis_shorts",
+			"render_controllers": ["controller.render.armor"],
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/mobblocks/ts/entity/attachable/sports_tennis_shorts",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.mbl_trousers"
+			}
+		}
+	}
+}

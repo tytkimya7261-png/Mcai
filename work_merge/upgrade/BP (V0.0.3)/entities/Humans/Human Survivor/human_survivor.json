@@ -1,0 +1,459 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mbl_ts:human_survivor",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "mbl_ts:skin": {
+          "type": "int",
+          "range": [0, 9],
+          "default": 0,
+          "client_sync": true
+        },
+        "mbl_ts:state": {
+          "type": "enum",
+          "values": ["alive", "corpse"],
+          "default": "alive",
+          "client_sync": true
+        },
+        "mbl_ts:corpse_pose": {
+          "type": "int",
+          "range": [0, 3],
+          "default": 0,
+          "client_sync": true
+        }
+      }
+    },
+
+    "component_groups": {
+      "mbl_ts:human_easy": {
+        "minecraft:attack": {
+          "damage": 3
+        },
+        "minecraft:health": {
+          "value": 40,
+          "max": 60
+        }
+      },
+      "mbl_ts:human_normal": {
+        "minecraft:attack": {
+          "damage": 4
+        },
+        "minecraft:health": {
+          "value": 60,
+          "max": 80
+        }
+      },
+      "mbl_ts:human_hard": {
+        "minecraft:attack": {
+          "damage": 5
+        },
+        "minecraft:health": {
+          "value": 100,
+          "max": 100
+        }
+      },
+
+      "mbl_ts:alive": {
+        "minecraft:movement": {
+          "value": 0.26
+        },
+        "minecraft:navigation.generic": {
+          "can_path_over_water": true,
+          "avoid_water": true,
+          "avoid_damage_blocks": true
+        },
+        "minecraft:jump.static": {},
+        "minecraft:movement.basic": {},
+        "minecraft:behavior.look_at_player": {
+          "priority": 7,
+          "look_distance": 6.0,
+          "probability": 0.02
+        },
+        "minecraft:behavior.random_look_around": {
+          "priority": 9
+        },
+        "minecraft:behavior.float": {
+          "priority": 0
+        },
+        "minecraft:economy_trade_table": {
+          "display_name": "entity.mbl_ts.human_survivor",
+          "table": "trading/mbl_ts/economy_trades/combined_trades.json",
+          "new_screen": true,
+          "persist_trades": false
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "on_damage": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "has_damage",
+                      "value": "fatal"
+                    }
+                  ]
+                },
+                "event": "mbl_ts:to_corpse"
+              },
+              "deals_damage": false
+            }
+          ]
+        }
+      },
+
+      "mbl_ts:corpse": {
+        "minecraft:health": {
+          "value": 999,
+          "max": 999
+        },
+        "minecraft:movement": {
+          "value": 0.001
+        },
+        "minecraft:knockback_resistance": {
+          "value": 100,
+          "max": 100
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "all",
+              "deals_damage": false
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "looping": false,
+          "randomInterval": false,
+          "time": 15.0,
+          "time_down_event": {
+            "event": "mbl_ts:transform_to_zombie"
+          }
+        }
+      },
+
+      "mbl_ts:become_zombie": {
+        "minecraft:transformation": {
+          "into": "mbl_ts:zombie_walker<minecraft:entity_spawned>"
+        }
+      },
+
+      "mbl_ts:untamed": {
+        "minecraft:type_family": {
+          "family": [
+            "human",
+            "survivor"
+          ]
+        },
+        "minecraft:tameable": {
+          "probability": 1.0,
+          "tame_items": "mbl_ts:zombie_vaccine",
+          "tame_event": {
+            "event": "minecraft:on_tame",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "must_see": true,
+          "reselect_targets": true,
+          "within_radius": 12.0,
+          "entity_types": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "monster"
+                  }
+                ]
+              },
+              "max_dist": 12
+            }
+          ]
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "speed_multiplier": 1.0
+        }
+      },
+
+      "mbl_ts:tamed": {
+        "minecraft:type_family": {
+          "family": [
+            "human",
+            "survivor",
+            "tamed"
+          ]
+        },
+        "minecraft:is_tamed": {},
+        "minecraft:behavior.follow_owner": {
+          "priority": 4,
+          "speed_multiplier": 1.0,
+          "start_distance": 10,
+          "stop_distance": 2
+        },
+        "minecraft:behavior.owner_hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.owner_hurt_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "must_see": true,
+          "reselect_targets": true,
+          "within_radius": 16.0,
+          "entity_types": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "monster"
+                  }
+                ]
+              },
+              "max_dist": 16
+            }
+          ]
+        }
+      },
+
+      "mbl_ts:to_villager": {
+        "minecraft:transformation": {
+          "into": "minecraft:villager_v2",
+          "keep_owner": false
+        }
+      },
+
+      "mbl_ts:peaceful": {
+        "minecraft:transformation": {
+          "into": "mbl_ts:despawn"
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 1.8
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:nameable": {},
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:persistent": {},
+      "minecraft:knockback_resistance": {
+        "value": 0.6
+      },
+      "minecraft:follow_range": {
+        "value": 16,
+        "max": 32
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "track_target": false,
+        "reach_multiplier": 1.0,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/mobblocks/ts/equipment/humans/human_survivor.json",
+        "slot_drop_chance": [
+          {
+            "slot": "slot.weapon.mainhand",
+            "drop_chance": 0.0
+          }
+        ]
+      },
+      "minecraft:healable": {
+        "items": [
+          { "item": "mbl_ts:tin_of_beans", "heal_amount": 50 },
+          { "item": "mbl_ts:tin_of_chicken_soup", "heal_amount": 40 },
+          { "item": "mbl_ts:tin_of_custard", "heal_amount": 60 },
+          { "item": "mbl_ts:tin_of_macaroni_cheese", "heal_amount": 20 },
+          { "item": "mbl_ts:tin_of_mushroom_soup", "heal_amount": 20 },
+          { "item": "mbl_ts:tin_of_oxtail_soup", "heal_amount": 20 },
+          { "item": "mbl_ts:tin_of_spaghetti_hoops", "heal_amount": 40 },
+          { "item": "mbl_ts:tin_of_tomato_soup", "heal_amount": 30 },
+          { "item": "mbl_ts:tin_of_vegetable_soup", "heal_amount": 50 }
+        ]
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:physics": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_difficulty",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": "peaceful"
+                }
+              ]
+            },
+            "event": "mbl_ts:to_peaceful"
+          }
+        ]
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "randomize": [
+              { "weight": 1, "set_property": { "mbl_ts:skin": 0 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 1 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 2 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 3 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 4 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 5 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 6 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 7 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 8 } },
+              { "weight": 1, "set_property": { "mbl_ts:skin": 9 } }
+            ]
+          },
+          {
+            "add": {
+              "component_groups": [
+                "mbl_ts:alive",
+                "mbl_ts:untamed"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_difficulty",
+              "value": "easy"
+            },
+            "add": {
+              "component_groups": [
+                "mbl_ts:human_easy"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_difficulty",
+              "value": "normal"
+            },
+            "add": {
+              "component_groups": [
+                "mbl_ts:human_normal"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_difficulty",
+              "value": "hard"
+            },
+            "add": {
+              "component_groups": [
+                "mbl_ts:human_hard"
+              ]
+            }
+          }
+        ]
+      },
+
+      "mbl_ts:to_corpse": {
+        "sequence": [
+          {
+            "set_property": {
+              "mbl_ts:state": "corpse"
+            }
+          },
+          {
+            "randomize": [
+              { "weight": 1, "set_property": { "mbl_ts:corpse_pose": 0 } },
+              { "weight": 1, "set_property": { "mbl_ts:corpse_pose": 1 } },
+              { "weight": 1, "set_property": { "mbl_ts:corpse_pose": 2 } },
+              { "weight": 1, "set_property": { "mbl_ts:corpse_pose": 3 } }
+            ]
+          },
+          {
+            "remove": {
+              "component_groups": [
+                "mbl_ts:alive",
+                "mbl_ts:untamed",
+                "mbl_ts:tamed"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "mbl_ts:corpse"
+              ]
+            }
+          }
+        ]
+      },
+
+      "mbl_ts:transform_to_zombie": {
+        "add": {
+          "component_groups": [
+            "mbl_ts:become_zombie"
+          ]
+        }
+      },
+
+      "minecraft:on_tame": {
+        "add": {
+          "component_groups": [
+            "mbl_ts:tamed"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "mbl_ts:untamed"
+          ]
+        },
+        "queue_command": {
+          "command": [
+            "particle mbl_ts:vaccine ^ ^0.7 ^",
+            "playsound vaccine @a"
+          ]
+        }
+      },
+
+      "mbl_ts:to_peaceful": {
+        "add": {
+          "component_groups": [
+            "mbl_ts:peaceful"
+          ]
+        }
+      }
+    }
+  }
+}

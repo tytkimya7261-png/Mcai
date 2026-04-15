@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "animation_controllers":{
+      "controller.animation.zombie_smoke":{
+         "states":{
+            "default":{
+               "transitions":[
+                  {
+                     "zombie_smoke":"query.is_alive"
+                  }
+               ]
+            },
+            "zombie_smoke":{
+               "particle_effects":[
+                  {
+                     "effect":"zombie_smoke",
+                     "locator":"smoke_1"
+                  },
+                  {
+                     "effect":"zombie_smoke",
+                     "locator":"smoke_2"
+                  },
+                  {
+                     "effect":"zombie_smoke",
+                     "locator":"smoke_3"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

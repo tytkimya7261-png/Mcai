@@ -1,0 +1,37 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"mbl_ts:rottweiler",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/mobblocks/ts/entity/animals/rottweiler/rottweiler",
+            "chested":"textures/mobblocks/ts/entity/animals/rottweiler/rottweiler_chested"
+         },
+         "geometry":{
+            "default":"geometry.mbl_dog"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "idle":"animation.mbl_dog.idle",
+            "walking":"animation.mbl_dog.walking",
+            "sitting":"animation.mbl_dog.sitting",
+            "attacking":"animation.mbl_dog.attacking",
+            "dog_controller":"controller.animation.mbl_dog"
+         },
+         "scripts":{
+            "animate":[
+               "dog_controller"
+            ]
+         },
+         "spawn_egg":{
+               "texture":"dog_spawn_egg"
+         },
+         "render_controllers":[
+            "controller.render.mbl_rottweiler"
+         ]
+      }
+   }
+}

@@ -1,0 +1,39 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:backpack_yellow_recipe"
+      },
+      "tags": [
+         "crafting_table"
+      ],
+      "pattern": [
+         "CCC",
+         "CDC",
+         "BAB"
+      ],
+      "key": {
+         "A": {
+            "item": "minecraft:chest"
+         },
+         "D": {
+            "item": "minecraft:lead"
+         },
+         "B": {
+            "item": "minecraft:yellow_dye"
+         },
+         "C": {
+            "item": "minecraft:leather"
+         }
+      },
+      "unlock": [
+         {
+            "item": "minecraft:chest"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:backpack_yellow_item",
+         "count": 1
+      }
+   }
+}

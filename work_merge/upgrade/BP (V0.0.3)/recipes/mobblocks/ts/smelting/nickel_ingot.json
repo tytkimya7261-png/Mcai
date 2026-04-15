@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.30",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"mbl_ts:nickel_ingot"
+      },
+      "tags": [
+         "furnace",
+         "blast_furnace"
+      ],
+      "unlock": [
+         {
+            "item":  "mbl_ts:raw_nickel"
+         }
+      ],
+      "input":"mbl_ts:raw_nickel",
+      "output":"mbl_ts:nickel_ingot"
+   }
+}

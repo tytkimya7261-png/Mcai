@@ -1,0 +1,113 @@
+{
+  "entity_sounds": {
+    "defaults": {
+      "volume": 1,
+      "pitch": 1,
+      "events": {
+        "fall.big": "game.player.hurt",
+        "fall.small": "game.player.hurt"
+      }
+    },
+    "entities": {
+      "pas:infected_cow": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.infected_cow.idle",
+          "hurt": "pas.entity.infected_cow.hurt",
+          "death": "pas.entity.infected_cow.death"
+        }
+      },
+      "pas:infected_pig": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.infected_pig.idle",
+          "hurt": "pas.entity.infected_pig.hurt",
+          "death": "pas.entity.infected_pig.death"
+        }
+      },
+      "pas:infected_wolf": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.infected_wolf.idle",
+          "hurt": "pas.entity.infected_wolf.hurt",
+          "death": "pas.entity.infected_wolf.death"
+        }
+      },
+      "pas:tnt_zombie": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.tnt_zombie.idle",
+          "hurt": "pas.entity.tnt_zombie.hurt",
+          "death": "pas.entity.tnt_zombie.death"
+        }
+      },
+      "pas:apocalypse_zombie": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.apocalypse_zombie.idle",
+          "hurt": "pas.entity.apocalypse_zombie.hurt",
+          "death": "pas.entity.apocalypse_zombie.death"
+        }
+      },
+      "pas:horde_zombie": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.horde_zombie.idle",
+          "hurt": "pas.entity.horde_zombie.hurt",
+          "death": "pas.entity.horde_zombie.death"
+        }
+      },
+      "pas:crawler_zombie": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.crawler_zombie.idle",
+          "hurt": "pas.entity.crawler_zombie.hurt",
+          "death": "pas.entity.crawler_zombie.death"
+        }
+      },
+      "pas:nighthunter_zombie": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.nighthunter_zombie.idle",
+          "hurt": "pas.entity.nighthunter_zombie.hurt",
+          "death": "pas.entity.nighthunter_zombie.death"
+        }
+      },
+      "pas:juggernaut_zombie": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.juggernaut_zombie.idle",
+          "hurt": "pas.entity.juggernaut_zombie.hurt",
+          "death": "pas.entity.juggernaut_zombie.death"
+        }
+      },
+      "pas:military_zombie": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.military_zombie.idle",
+          "hurt": "pas.entity.military_zombie.hurt",
+          "death": "pas.entity.military_zombie.death"
+        }
+      },
+      "pas:flesh_howler": {
+        "volume": 1,
+        "pitch": 1,
+        "events": {
+          "ambient": "pas.entity.flesh_howler.idle",
+          "hurt": "pas.entity.flesh_howler.hurt",
+          "death": "pas.entity.flesh_howler.death"
+        }
+      }
+    }
+  }
+}

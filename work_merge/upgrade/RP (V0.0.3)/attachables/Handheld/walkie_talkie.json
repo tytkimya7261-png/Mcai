@@ -1,0 +1,37 @@
+{
+   "format_version":"1.10",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"mbl_ts:walkie_talkie",
+         "materials":{
+            "default":"entity_alphatest"
+         },
+         "textures":{
+            "default":"textures/mobblocks/ts/entity/walkie_talkie"
+         },
+         "scripts":{
+            "pre_animation":[
+               "v.main_hand = c.item_slot == 'main_hand';"
+            ],
+            "animate":[
+               {
+                  "first_person_main_hand":"(v.main_hand && c.is_first_person) && !query.is_sneaking"
+               },
+               {
+                  "third_person_main_hand":"v.main_hand && !c.is_first_person"
+               }
+            ]
+         },
+         "animations":{ 
+            "first_person_main_hand":"animation.mbl_walkie_talkie.first_person_main_hand",
+            "third_person_main_hand":"animation.mbl_walkie_talkie.third_person_main_hand"
+         },
+         "geometry":{
+            "default":"geometry.walkie_talkie"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

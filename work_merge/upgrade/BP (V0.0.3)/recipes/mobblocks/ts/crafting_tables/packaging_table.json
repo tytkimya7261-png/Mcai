@@ -1,0 +1,36 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:packaging_table"
+      },
+      "tags": [
+         "crafting_table"
+      ],
+      "pattern": [
+         "CDC",
+         "AAA",
+         "AAA"
+      ],
+      "key": {
+         "A": {
+            "item": "minecraft:planks"
+         },
+         "D": {
+            "item": "minecraft:shears"
+         },
+         "C": {
+            "item": "mbl_ts:plastic"
+         }
+      },
+      "unlock": [
+         {
+            "item": "minecraft:planks"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:packaging_table",
+         "count": 1
+      }
+   }
+}

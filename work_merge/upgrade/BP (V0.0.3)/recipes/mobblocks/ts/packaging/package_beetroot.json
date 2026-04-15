@@ -1,0 +1,31 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:packaged_beetroot_recipe"
+      },
+      "tags": [
+         "packaging_table"
+      ],
+      "pattern": [
+         "AC"
+      ],
+      "key": {
+         "C": {
+            "item": "minecraft:beetroot"
+         },
+         "A": {
+            "item": "mbl_ts:empty_packet"
+         }
+      },
+      "unlock": [
+         {
+            "item": "minecraft:beetroot"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:packaged_beetroot",
+         "count": 1
+      }
+   }
+}

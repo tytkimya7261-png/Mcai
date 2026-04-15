@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_golfclub.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [137.00115, 65.27082, -69.39145],
+					"position": [-7, 11, -6]
+				}
+			}
+		},
+		"animation.mbl_golfclub.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [87.62088, -0.33562, -2.58311],
+					"position": [0, 12, -11],
+					"scale": 1
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		}
+	}
+}

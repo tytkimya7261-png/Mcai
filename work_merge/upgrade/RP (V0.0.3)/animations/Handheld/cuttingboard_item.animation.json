@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cutting_board.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [29.9288, 10.64634, -196.66419],
+					"position": [-5, 14, 2],
+					"scale": 1.2
+				}
+			}
+		},
+		"animation.cutting_board.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [89.38689, 1.06182, 80.06902],
+					"position": [0, 17, -6],
+					"scale": 0.75
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		}
+	}
+}

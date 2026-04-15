@@ -1,0 +1,210 @@
+{
+   "pools": [
+      {
+         "rolls": {
+            "min": 2,
+            "max": 5
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:anti_toxin_brew",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:valor_brew",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:stamina_brew",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:purity_brew",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:rag",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 1,
+            "max": 4
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:healing_brace",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:bottle_of_water_4",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:bandage",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:power_brew",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 1,
+            "max": 4
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:energy_pack",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:mighty_healing_brew",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "minecraft:totem_of_undying",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:vitality_brew",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 3
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

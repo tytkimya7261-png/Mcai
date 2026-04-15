@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pas:horde_zombie",
+      "materials": { "default": "zombie" },
+      "textures": {
+        "default":  "textures/entity/horde_zombie",
+        "var1":     "textures/entity/horde_variants/horde_variant_1",
+        "var2":     "textures/entity/horde_variants/horde_variant_2",
+        "var3":     "textures/entity/horde_variants/horde_variant_3",
+        "var4":     "textures/entity/horde_variants/horde_variant_4",
+        "var5":     "textures/entity/horde_variants/horde_variant_5",
+        "var6":     "textures/entity/horde_variants/horde_variant_6",
+        "var7":     "textures/entity/horde_variants/horde_variant_7",
+        "var8":     "textures/entity/horde_variants/horde_variant_8"
+      },
+      "geometry": {
+        "default": "geometry.ze_runner"
+      },
+      "animations": {
+        "idle_anim":   "ze_runner.idle",
+        "move":        "ze_runner.walk",
+        "attack_anim": "ze_runner.attack"
+      },
+      "animation_controllers": [
+        { "root": "controller.animation.pas.custom_zombie" }
+      ],
+      "render_controllers": [
+        "controller.render.pas.horde_zombie"
+      ],
+      "spawn_egg": {
+        "base_color":    "#8B0000",
+        "overlay_color": "#FF0000"
+      }
+    }
+  }
+}

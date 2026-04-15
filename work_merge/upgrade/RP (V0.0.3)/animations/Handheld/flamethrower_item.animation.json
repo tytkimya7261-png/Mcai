@@ -1,0 +1,91 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_flamethrower.first_person_hold_idle": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [52.62497, 60.27006, 282.82868],
+					"position": [-1, 9, 5],
+					"scale": 1.2
+				}
+			}
+		},
+		"animation.mbl_flamethrower.third_person_hold_idle": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [37.46148, -9.99038, 0.44067],
+					"position": [1, 15, -6],
+					"scale": 0.75
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		},
+		"animation.mbl_flamethrower.first_person_hold_attack": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.75,
+			"bones": {
+				"root_item": {
+					"rotation": {
+						"0.0": [52.62497, 60.27006, 282.82868],
+						"0.25": [42.62497, 60.27006, 282.82868],
+						"0.5": [50.12497, 60.27006, 282.82868],
+						"0.75": [52.62497, 60.27006, 282.82868]
+					},
+					"position": {
+						"0.0": [-1, 9, 5],
+						"0.25": [-2.6, 9, 5],
+						"0.5": [-2.6, 9, 5],
+						"0.75": [-1, 9, 5]
+					},
+					"scale": {
+						"0.0": [1.2, 1.2, 1.2],
+						"0.75": [1.2, 1.2, 1.2]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "flame",
+					"locator": "flame"
+				}
+			}
+		},
+		"animation.mbl_flamethrower.third_person_hold_attack": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.75,
+			"bones": {
+				"root_item": {
+					"rotation": {
+						"0.0": [37.46148, -9.99038, 0.44067],
+						"0.25": [27.46148, -9.99038, 0.44067],
+						"0.5": [24.96148, -9.99038, 0.44067],
+						"0.75": [37.46148, -9.99038, 0.44067]
+					},
+					"position": {
+						"0.0": [1, 15, -6],
+						"0.25": [1, 16, -6],
+						"0.5": [1, 15, -6],
+						"0.75": [1, 15, -6]
+					},
+					"scale": {
+						"0.0": [0.75, 0.75, 0.75],
+						"0.75": [0.75, 0.75, 0.75]
+					}
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "flame",
+					"locator": "flame"
+				}
+			}
+		}
+	}
+}

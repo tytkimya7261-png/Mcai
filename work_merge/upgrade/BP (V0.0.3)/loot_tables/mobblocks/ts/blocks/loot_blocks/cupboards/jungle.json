@@ -1,0 +1,244 @@
+{
+   "pools": [
+      {
+         "rolls": {
+            "min": 0,
+            "max": 1
+         },
+         "entries": [ 
+            {
+               "type": "item",
+               "name": "mbl_ts:cutting_board",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:marble",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 4
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:crimson_buffalo",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+                                             "type": "item",
+               "name": "minecraft:blaze_powder",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 2
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_beef_stew",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_oxtail_soup",
+               "weight": 15,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:bandage",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 3
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:spider_eye",
+               "weight": 35,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 1,
+            "max": 2
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:experience_bottle",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:rotten_beetroot",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:tin_of_vegetable_soup",
+               "weight": 65,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_beef_stew_open",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_oxtail_soup_open",
+               "weight": 5,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:cherry_king_kola",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:vanilla_king_kola",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+                                       "type": "item",
+               "name": "mbl_ts:bandage",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+         "type": "item",
+         "name": "minecraft:shears",
+         "weight": 45,
+         "functions": [
+            {
+               "function": "set_count",
+               "count": {
+                  "min": 0,
+                  "max": 1
+               }
+            }
+         ]
+      }
+   ]
+}

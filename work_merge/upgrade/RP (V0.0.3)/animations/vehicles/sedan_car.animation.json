@@ -1,0 +1,83 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sedan_car.not_riding": {
+			"loop": true,
+			"bones": {
+				"door_0": {
+					"rotation": [0, 52.5, 0]
+				},
+				"door_1": {
+					"rotation": [0, -52.5, 0]
+				},
+				"door_2": {
+					"rotation": [0, 52.5, 0]
+				},
+				"door_3": {
+					"rotation": [0, -52.5, 0]
+				}
+			}
+		},
+		"animation.sedan_car.wheels": {
+			"loop": true,
+			"bones": {
+				"left_0": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"right_0": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"back_0": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"right_1": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"left_1": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"back_1": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"back_2": {
+					"rotation": ["q.modified_distance_moved *9", 0, 0]
+				},
+				"left_2": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				},
+				"right_2": {
+					"rotation": ["q.modified_distance_moved *9", "math.clamp(query.yaw_speed, -30, 30)", 0]
+				}
+			}
+		},
+		"animation.sedan_car.tilt": {
+			"loop": true,
+			"bones": {
+				"sedan": {
+					"rotation": ["Math.clamp(query.property('mbl_ts:positive_car_tilt') - query.property('mbl_ts:negative_car_tilt'), -45, 45)", 0, 0],
+					"position": [
+						0,
+						"(query.property('mbl_ts:positive_car_tilt') == 0 && query.property('mbl_ts:negative_car_tilt') == 0) ? 0 : Math.clamp(query.property('mbl_ts:negative_car_tilt') * 0.5 - query.property('mbl_ts:positive_car_tilt') * 4.0, -7.8, -8.8)",
+						0
+					]
+				}
+			}
+		},
+		"animation.sedan_car.no_wheels": {
+			"loop": true,
+			"bones": {
+				"sedan": {
+					"position": [0, -3, 0]
+				}
+			}
+		},
+		"animation.sedan_car.no_engine": {
+			"loop": true,
+			"bones": {
+				"hood": {
+					"rotation": [-35, 0, 0]
+				}
+			}
+		}
+	}
+}

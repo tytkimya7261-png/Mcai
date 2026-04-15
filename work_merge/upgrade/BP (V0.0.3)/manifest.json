@@ -1,0 +1,43 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+        "description" : "pack.description",
+		"uuid": "307e4874-fcf3-465c-898e-ef719518bae8",
+        "pack_scope": "world", 
+        "version": [1, 0, 0], 
+        "min_engine_version": [1, 21, 0]
+	},
+	"metadata": {
+        "product_type": "addon"
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "ecd1b429-da62-4b34-aeba-65edee4ac234",
+			"type": "data"
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "4af4254c-daac-49e6-bcb4-227d0ea5c18a",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a5f88544-c146-41df-8b01-534862fa889b",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.1.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		  }
+	]
+}

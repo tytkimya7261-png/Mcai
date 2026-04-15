@@ -1,0 +1,473 @@
+{
+   "pools": [
+      {
+         "rolls": {
+            "min": 0,
+            "max": 1
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:string",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:super_creeper_bro_dvd",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:iron_ingot",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 4
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:brown_bundle",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_stewed_steak",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:purple_bundle",
+               "weight": 30,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:gamer_bottoms_black",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:flashlight_item",
+               "weight": 8,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:wm_season_3",
+               "weight": 45,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:blocks_28_later_dvd",
+               "weight": 35,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:dawn_of_the_witches_dvd",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:wither_of_darkness_dvd",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "type": "item",
+         "name": "mbl_ts:backpack_red_item",
+         "weight": 25,
+         "functions": [
+            {
+               "function": "set_count",
+               "count": {
+                  "min": 0,
+                  "max": 1
+               }
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 1,
+            "max": 2
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:playpod_controller_white",
+               "weight": 35,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:bundle",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tv_controller",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:titanium_scrap",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:red_bundle",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_spaghetti_hoops",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:iron_nugget",
+               "weight": 80,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 7
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:battery",
+               "weight": 35,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 3
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:plastic",
+               "weight": 40,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:ycube_controller_blue",
+               "weight": 5,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "min": 0,
+                     "max": 1
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:cap_blue",
+               "weight": 15,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:gamer_bottoms_white",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:gamer_trainers_white",
+               "weight": 55,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:gamer_hoodie_red",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:stamina_brew",
+               "weight": 25,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:pyjamas_top_green",
+               "weight": 50,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 0,
+                        "max": 1
+                     }
+                  },
+                  {
+                     "function": "set_damage",
+                     "damage": {
+                        "min": 0.1,
+                        "max": 0.9
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "type": "item",
+         "name": "mbl_ts:shirt_black",
+         "weight": 25,
+         "functions": [
+            {
+               "function": "set_count",
+               "count": {
+                  "min": 0,
+                  "max": 1
+               }
+            },
+            {
+               "function": "set_damage",
+               "damage": {
+                  "min": 0.1,
+                  "max": 0.9
+               }
+            }
+         ]
+      }
+   ]
+}

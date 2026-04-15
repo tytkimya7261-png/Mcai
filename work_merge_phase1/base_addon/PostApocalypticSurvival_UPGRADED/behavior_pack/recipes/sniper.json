@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pas:sniper_recipe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "GII",
+      " SI",
+      " SS"
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "S": { "item": "minecraft:stick" },
+      "G": { "item": "minecraft:glass" }
+    },
+    "result": {
+      "item": "pas:sniper",
+      "count": 1
+    }
+  }
+}

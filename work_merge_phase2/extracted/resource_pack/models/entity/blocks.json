@@ -1,0 +1,96 @@
+{
+    "format_version": "1.21.40",
+ "poster_block_one": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_1": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_2": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_3": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_4": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_5": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_6": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_7": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_8": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_9": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_10": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wm_season_11": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_blocks_28_later": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_chickens_came_back": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_chunks_28_later": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_dawn_of_the_witches": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_day_of_the_zombies": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_fighting_panda": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_minecart_to_the_end": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_night_of_the_mobs": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_school_of_cobble": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_shallow_steve": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_super_creeper_bro": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_the_return_of_the_skeleton": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_villagers_of_the_dead": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "poster_wither_of_darkness": {
+            "sound": "block.ts_move_poster.break"
+        },
+        "peanut_plant": {
+            "sound": "block.ts_crop.break"
+        },
+        "broad_bean_plant": {
+            "sound": "block.ts_crop.break"
+        },
+        "lentil_plant": {
+            "sound": "block.ts_crop.break"
+        },
+        "spinach_plant": {
+            "sound": "block.ts_crop.break"
+        },
+        "tomato_plant": {
+            "sound": "block.ts_crop.break"
+        }
+}

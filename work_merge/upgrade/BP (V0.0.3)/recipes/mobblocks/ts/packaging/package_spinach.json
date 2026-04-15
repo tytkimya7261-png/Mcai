@@ -1,0 +1,31 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:packaged_spinach_recipe"
+      },
+      "tags": [
+         "packaging_table"
+      ],
+      "pattern": [
+         "AC"
+      ],
+      "key": {
+         "C": {
+            "item": "mbl_ts:spinach"
+         },
+         "A": {
+            "item": "mbl_ts:empty_packet"
+         }
+      },
+      "unlock": [
+         {
+            "item": "mbl_ts:spinach"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:packaged_spinach",
+         "count": 1
+      }
+   }
+}

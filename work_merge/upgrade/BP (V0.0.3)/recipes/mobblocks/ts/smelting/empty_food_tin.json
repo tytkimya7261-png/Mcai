@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.30",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"mbl_ts:empty_food_tin"
+      },
+      "tags": [
+         "furnace",
+         "blast_furnace",
+         "smoker",
+         "campfire"
+      ],
+      "unlock": [
+         {
+            "item":  "mbls_ts:empty_food_tin"
+         }
+      ],
+      "input":"mbl_ts:empty_food_tin",
+      "output":"minecraft:iron_nugget"
+   }
+}

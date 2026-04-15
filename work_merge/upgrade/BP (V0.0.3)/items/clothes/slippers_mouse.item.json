@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mbl_ts:slippers_mouse",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.boots"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "slippers_mouse"
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_feet",
+				"value": 10
+			},
+			"minecraft:durability": {
+				"max_durability": 150
+			},
+			"minecraft:display_name": {
+				"value": "item.mbl_ts:slippers_mouse.name"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet",
+				"protection": 3
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"white_wool"
+						],
+						"repair_amount": 85
+					}
+				]
+			}
+		}
+	}
+}

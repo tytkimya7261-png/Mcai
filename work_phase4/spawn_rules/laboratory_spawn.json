@@ -1,0 +1,17 @@
+{
+  "format_version": "1.13",
+  "weight": 1,
+  "biomes": [
+    "minecraft:stone_beach",
+    "minecraft:extreme_hills"
+  ],
+  "structure": "mcai:laboratory",
+  "placement": {
+    "y_range": [
+      20,
+      30
+    ],
+    "rare": true,
+    "distance_from_spawn": 500
+  }
+}

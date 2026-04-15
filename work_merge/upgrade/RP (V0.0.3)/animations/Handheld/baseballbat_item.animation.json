@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_baseballbat.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [112.62497, 60.27006, 282.82868],
+					"position": [0, 12, 8],
+					"scale": 1.5
+				}
+			}
+		},
+		"animation.mbl_baseballbat.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [87.62088, -0.33562, -2.58311],
+					"position": [0, 17, -5],
+					"scale": 1
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:aluminium_block_recipe"
+      },
+      "tags": [
+         "crafting_table"
+      ],
+      "pattern": [
+         "AAA",
+         "AAA",
+         "AAA"
+      ],
+      "key": {
+         "A": {
+            "item": "mbl_ts:aluminium_ingot"
+         }
+      },
+      "unlock": [
+         {
+            "item": "mbl_ts:aluminium_ingot"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:aluminium_block",
+         "count": 1
+      }
+   }
+}

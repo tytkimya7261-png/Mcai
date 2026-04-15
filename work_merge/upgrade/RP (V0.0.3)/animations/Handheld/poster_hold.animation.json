@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_ts_poster_hold.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, 31, -32],
+					"position": [6, 18, 9],
+					"scale": 1.4
+				}
+			}
+		},
+		"animation.mbl_ts_poster_hold.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [25, 0, 0],
+					"position": [0.5, 21, -2.5],
+					"scale": 1
+				}
+			}
+		}
+	}
+}

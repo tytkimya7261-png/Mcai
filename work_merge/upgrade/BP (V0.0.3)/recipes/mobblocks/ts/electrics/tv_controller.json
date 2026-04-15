@@ -1,0 +1,26 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shapeless": {
+      "description": {
+         "identifier": "mbl_ts:tv_controller"
+      },
+      "tags": [
+         "deconstruction_bench"
+      ],
+      "ingredients": [
+         {
+            "item": "mbl_ts:tv_controller",
+            "count": 9
+         }
+      ],
+      "unlock": [
+         {
+            "item": "mbl_ts:tv_controller"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:electrical_scrap",
+         "count": 1
+      }
+   }
+}

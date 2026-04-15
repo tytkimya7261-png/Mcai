@@ -1,0 +1,40 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"mbl_ts:parachute",
+         "item":{
+            "mbl_ts:parachute":"query.owner_identifier == 'minecraft:player'"
+         },
+         "materials":{
+            "default":"armor",
+            "enchanted":"armor_enchanted"
+         },
+         "textures":{
+            "default":"textures/mobblocks/ts/entity/parachute",
+            "enchanted":"textures/misc/enchanted_item_glint"
+         },
+         "geometry":{
+            "default":"geometry.mbl_parachute"
+         },
+         "animations":{
+            "open":"animation.mbl_parachute.open",
+            "closed":"animation.mbl_parachute.closed"
+         },
+         "scripts":{
+            "parent_setup":"variable.chestplate_layer_visible = 0.0;",
+            "animate":[
+               {
+                  "open":"!query.is_in_water && !query.is_on_ground"
+               },
+               {
+                  "closed":"!query.is_in_water && query.is_on_ground"
+               }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.armor"
+         ]
+      }
+   }
+}

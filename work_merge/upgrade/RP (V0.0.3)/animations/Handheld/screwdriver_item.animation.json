@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_screwdriver.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [140.43131, -6.40865, -7.69263],
+					"position": [-1, 0, -2],
+					"scale": 1.2
+				}
+			}
+		},
+		"animation.mbl_screwdriver.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [87.46148, -9.99038, 0.44067],
+					"position": [1, 10, -10],
+					"scale": 0.75
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_supply_crate.falling": {
+			"loop": true,
+			"animation_length": 1.2,
+			"bones": {
+				"paracute": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [0, 0, -2.5],
+						"0.6": [0, 0, 0],
+						"0.9": [0, 0, 2.5],
+						"1.2": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

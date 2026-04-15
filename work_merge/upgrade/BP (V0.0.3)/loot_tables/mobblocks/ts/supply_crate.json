@@ -1,0 +1,252 @@
+{
+   "pools": [
+      {
+         "rolls": {
+            "min": 2,
+            "max": 5
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:flamethrower",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:nailer",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:metal_bat",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "minecraft:enchanted_golden_apple",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 1,
+                        "max": 2
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:broad_bean_seed",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 2,
+            "max": 5
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:wheat_seeds",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:cherry_king_kola",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tomato",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:ramen_noodles_chicken",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tin_of_spaghetti_hoops",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:crimson_buffalo",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": {
+            "min": 2,
+            "max": 5
+         },
+         "entries": [
+            {
+               "type": "item",
+               "name": "mbl_ts:midway_energy",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:midway_energy",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:midway_energy",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+                              "type": "item",
+               "name": "mbl_ts:fuel_item",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            },
+            {
+               "type": "item",
+               "name": "mbl_ts:tyre_part_3",
+               "weight": 100,
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": {
+                        "min": 2,
+                        "max": 4
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

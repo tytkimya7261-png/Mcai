@@ -1,0 +1,36 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:deconstruction_bench"
+      },
+      "tags": [
+         "crafting_table"
+      ],
+      "pattern": [
+         "DBD",
+         "AAA",
+         "AAA"
+      ],
+      "key": {
+         "A": {
+            "item": "minecraft:planks"
+         },
+         "B": {
+            "item": "mbl_ts:hammer"
+         },
+         "D": {
+            "item": "minecraft:stone"
+         }
+      },
+      "unlock": [
+         {
+            "item": "minecraft:planks"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:deconstruction_bench",
+         "count": 1
+      }
+   }
+}

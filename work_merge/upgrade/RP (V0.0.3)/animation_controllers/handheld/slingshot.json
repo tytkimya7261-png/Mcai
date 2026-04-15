@@ -1,0 +1,59 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mobblocks_slingshot": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        "empty"
+                    ],
+                    "transitions": [
+                        {
+                            "load": "query.item_remaining_use_duration > 0.0"
+                        },
+                        {
+                            "hold": "query.item_is_charged('main_hand')"
+                        }
+                    ]
+                },
+                "load": {
+                    "animations": [
+                        "load"
+                    ],
+                     "transitions": [
+                        {
+                            "default": "query.item_remaining_use_duration <= 0.0 && !query.item_is_charged('main_hand')"
+                        },
+                        {
+                            "hold": "query.item_is_charged('main_hand')"
+                        }
+                    ]
+                },
+                "hold": {
+                    "animations": [
+                        "hold"
+                    ],
+                    "transitions": [
+                        {
+                            "shoot": "query.item_remaining_use_duration > 0.0"
+                        },
+                        {
+                            "default": "query.item_remaining_use_duration <= 0.0 && !query.item_is_charged('main_hand')"
+                        }
+                    ]
+                },
+                "shoot": {
+                    "animations": [
+                        "shoot"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.any_animation_finished"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

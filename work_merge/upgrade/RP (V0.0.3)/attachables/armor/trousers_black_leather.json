@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "mbl_ts:trousers_black_leather",
+			"render_controllers": [
+				"controller.render.armor"
+			],
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/mobblocks/ts/entity/attachable/trousers_black_leather",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.white_trousers"
+			}
+		}
+	}
+}

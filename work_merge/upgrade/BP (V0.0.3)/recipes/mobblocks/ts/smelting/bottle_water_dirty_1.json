@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.30",
+   "minecraft:recipe_furnace": {
+      "description": {
+         "identifier": "mbl_ts:bottle_of_water_dirty_1"
+      },
+      "tags": [
+         "furnace",
+         "blast_furnace",
+         "smoker",
+         "campfire"
+      ],
+      "unlock": [
+         {
+            "item":  "mbls_ts:bottle_of_water_dirty_1"
+         }
+      ],
+      "input": "mbl_ts:bottle_of_water_dirty_1",
+      "output": "mbl_ts:bottle_of_water_1"
+   }
+}

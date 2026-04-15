@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.30",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"mbl_ts:battery"
+      },
+		"tags": [
+			"crafting_table"
+		],
+      "pattern":[
+         "CCA",
+         "CAC",
+         "ACC"
+      ],
+      "key":{
+         "A":{
+            "item":"minecraft:iron_nugget"
+         },
+         "C":{
+            "item":"mbl_ts:lithium"
+         }
+      },
+		"unlock": [
+			{
+		   "item":"mbl_ts:lithium"
+			}
+			],
+		"result": [
+			{
+		    "item":"mbl_ts:battery",
+              "count":1
+			}
+		]
+	}
+}

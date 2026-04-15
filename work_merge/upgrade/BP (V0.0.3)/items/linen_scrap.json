@@ -1,0 +1,15 @@
+{
+   "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mbl_ts:linen_scrap"
+    },
+    "components": {
+      "minecraft:icon": "linen_scrap",
+            "minecraft:display_name": {
+        "value": "item.mbl_ts:linen_scrap.name"
+      },
+      "minecraft:max_stack_size": 64
+      }
+    }
+  }

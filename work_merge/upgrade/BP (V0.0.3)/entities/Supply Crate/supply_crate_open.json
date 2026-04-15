@@ -1,0 +1,80 @@
+{
+   "format_version": "1.21.0",
+   "minecraft:entity": {
+      "description": {
+         "identifier": "mbl_ts:supply_crate_open",
+         "spawn_category": "creature",
+         "is_spawnable": false,
+         "is_summonable": true
+      },
+      "component_groups": {
+         "mbl_ts:grounded": {
+            "minecraft:variant": {
+               "value": 1
+            }
+         },
+         "mbl_ts:countdown_timer": {
+            "minecraft:timer": {
+               "time": 5.0,
+               "time_down_event": {
+                  "event": "mbl_ts:trigger_despawn"
+               }
+            }
+         },
+         "mbl_ts:instant_despawn": {
+            "minecraft:instant_despawn": {}
+         }
+      },
+      "components": {
+         "minecraft:type_family": {
+            "family": [
+               "supply_crate"
+            ]
+         },
+         "minecraft:collision_box": {
+            "width": 1.0,
+            "height": 1.0
+         },
+         "minecraft:health": {
+            "value": 500,
+            "max": 500
+         },
+         "minecraft:scale": {
+            "value": 1.1
+         },
+         "minecraft:variant": {
+            "value": 0
+         },
+         "minecraft:behavior.float": {
+            "priority": 0
+         },
+         "minecraft:damage_sensor": {
+            "triggers": {
+               "cause": "all",
+               "deals_damage": "no"
+            }
+         },
+         "minecraft:knockback_resistance": {
+            "value": 100,
+            "max": 100
+         },
+         "minecraft:physics": {}
+      },
+      "events": {
+         "minecraft:entity_spawned": {
+            "add": {
+               "component_groups": [
+                  "mbl_ts:countdown_timer"
+               ]
+            }
+         },
+         "mbl_ts:trigger_despawn": {
+            "add": {
+               "component_groups": [
+                  "mbl_ts:instant_despawn"
+               ]
+            }
+         }
+      }
+   }
+}

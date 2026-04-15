@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_fireaxe.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [107.62497, 60.27006, 282.82868],
+					"position": [-6, 6, -1],
+					"scale": 1.2
+				}
+			}
+		},
+		"animation.mbl_fireaxe.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [92.46148, -9.99038, 0.44067],
+					"position": [1.5, 12, -8]
+				},
+				"rightItem": {
+					"position": [0, 28, 0]
+				}
+			}
+		},
+				"animation.mbl_paintbrust.drip": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"drip": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -18, -14]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

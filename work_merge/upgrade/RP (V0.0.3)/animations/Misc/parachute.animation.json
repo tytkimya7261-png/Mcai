@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mbl_parachute.open": {
+			"loop": true,
+			"animation_length": 10000,
+			"bones": {
+				"bag_flap": {
+					"rotation": {
+						"0.0": [140, 0, 0],
+						"0.5": [-40, 0, 0]
+					}
+				},
+				"chute": {
+					"scale": {
+						"0.25": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.mbl_parachute.closed": {
+			"loop": true,
+			"animation_length": 10000,
+			"bones": {
+				"bag_flap": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [140, 0, 0]
+					}
+				},
+				"chute": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

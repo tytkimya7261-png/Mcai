@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.30",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"mbl_ts:melted_magenta_glass_recipe"
+      },
+      "tags": [
+         "furnace",
+         "blast_furnace"
+      ],
+      "unlock": [
+         {
+            "item":  "minecraft:magenta_stained_glass"
+         }
+      ],
+      "input":"minecraft:magenta_stained_glass",
+      "output":"mbl_ts:melted_glass"
+   }
+}

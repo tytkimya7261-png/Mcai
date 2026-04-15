@@ -1,0 +1,377 @@
+{
+   "block_sounds": {
+      "block.ts_move_poster.break": {
+         "pitch": 1,
+         "volume": 1,
+         "events": {
+            "break": "block.ts_move_poster.break",
+            "hit": "block.ts_move_poster.break",
+            "place": "block.ts_move_poster.break"
+         }
+      },
+            "block.ts_crop.break": {
+         "pitch": 1,
+         "volume": 1,
+         "events": {
+            "break": "block.ts_crop.break"
+
+         }
+      }
+   },
+   "entity_sounds": {
+      "entities": {
+         "mbl_ts:nail_projectile": {
+            "events": {
+               "shoot": {
+                  "sound": "extra.nailer_hit",
+                  "volume": 1.0
+               },
+               "hit": {
+                  "sound": "extra.nailer_hit",
+                  "volume": 1.0
+               },
+               "death": {
+                  "sound": "extra.nailer_hit",
+                  "volume": 1.0
+               }
+            }
+         },
+                  "mbl_ts:marble_projectile": {
+            "events": {
+               "death": {
+                  "sound": "extra.throw_marble",
+                  "volume": 1.0
+               }
+            }
+         },
+                  "mbl_ts:blue_marble_projectile": {
+            "events": {
+               "death": {
+                  "sound": "extra.throw_marble_2",
+                  "volume": 1.0
+               }
+            }
+         },
+                  "mbl_ts:red_marble_projectile": {
+            "events": {
+               "death": {
+                  "sound": "throw_boom_marble",
+                  "volume": 1.0
+               }
+            }
+         },
+         "mbl_ts:zombie_walker": {
+            "events": {
+               "ambient": "mob.ts_zombie.say",
+               "attack": "mob.ts_zombie.attack",
+               "hurt": "mob.ts_zombie.hurt",
+               "death": "mob.ts_zombie.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_zombie.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:bicycle": {
+            "events": {
+               "ambient": "mob.bicycle.say",
+               "hurt": "mob.bicycle.hurt",
+               "death": "mob.bicycle.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.bicycle.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:bike_vehicle": {
+            "events": {
+               "hurt": "mob.ts_car.hurt",
+               "death": "mob.ts_car.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_car.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:pickup_truck": {
+            "events": {
+               "hurt": "mob.ts_car.hurt",
+               "death": "mob.ts_car.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_car.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:sedan_car": {
+            "events": {
+               "hurt": "mob.ts_car.hurt",
+               "death": "mob.ts_car.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_car.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:human_survivor": {
+            "events": {
+               "hurt": "mob.villager.hit",
+               "death": "mob.villager.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.wolf.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:zombie_crawler": {
+            "events": {
+               "ambient": "mob.ts_zombie.say",
+               "attack": "mob.ts_zombie.attack",
+               "hurt": "mob.ts_zombie.hurt",
+               "death": "mob.ts_zombie.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_zombie.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:zombie_armless": {
+            "events": {
+               "ambient": "mob.ts_zombie.say",
+               "attack": "mob.ts_zombie.attack",
+               "hurt": "mob.ts_zombie.hurt",
+               "death": "mob.ts_zombie.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_zombie.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:zombie_bloater": {
+            "events": {
+               "ambient": "mob.ts_zombie.say",
+               "attack": "mob.ts_zombie.attack",
+               "hurt": "mob.ts_zombie.hurt",
+               "death": "mob.ts_zombie.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_zombie.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:zombie_small": {
+            "events": {
+               "ambient": "mob.ts_zombie.say",
+               "attack": "mob.ts_zombie.attack",
+               "hurt": "mob.ts_zombie.hurt",
+               "death": "mob.ts_zombie.death",
+               "step": {
+                  "pitch": [
+                     0.90,
+                     1.10
+                  ],
+                  "sound": "mob.ts_zombie.step",
+                  "volume": 0.350
+               }
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:zombie_human_survivor": {
+            "volume": 1.0,
+            "pitch": [
+               1.0,
+               1.0
+            ],
+            "events": {
+               "ambient": "zombie.ambient.walker",
+               "hurt": "zombie.hurt.walker",
+               "death": "zombie.death.walker"
+            }
+         },
+         "mbl_ts:rat": {
+            "volume": 1.0,
+            "pitch": [
+               1.0,
+               1.0
+            ],
+            "events": {
+               "hurt": "mob.rat.hurt",
+               "death": "mob.rat.death"
+            }
+         },
+         "mbl_ts:crow": {
+            "volume": 1.0,
+            "pitch": [
+               1.0,
+               1.0
+            ],
+            "events": {
+               "ambient": "mob.crow.say",
+               "hurt": "mob.crow.hurt",
+               "death": "mob.crow.death"
+            }
+         },
+         "mbl_ts:rottweiler": {
+            "events": {
+               "ambient": "mob.wolf.bark",
+               "death": "mob.wolf.death",
+               "eat": "",
+               "growl": "mob.wolf.growl",
+               "hurt": "mob.wolf.hurt",
+               "pant": "mob.wolf.panting",
+               "shake": {
+                  "pitch": [
+                     0.80,
+                     1.20
+                  ],
+                  "sound": "mob.wolf.shake"
+               },
+               "step": {
+                  "pitch": 1.0,
+                  "sound": "mob.wolf.step",
+                  "volume": 0.650
+               },
+               "whine": "mob.wolf.whine"
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:german_shepherd": {
+            "events": {
+               "ambient": "mob.wolf.bark",
+               "death": "mob.wolf.death",
+               "eat": "",
+               "growl": "mob.wolf.growl",
+               "hurt": "mob.wolf.hurt",
+               "pant": "mob.wolf.panting",
+               "shake": {
+                  "pitch": [
+                     0.80,
+                     1.20
+                  ],
+                  "sound": "mob.wolf.shake"
+               },
+               "step": {
+                  "pitch": 1.0,
+                  "sound": "mob.wolf.step",
+                  "volume": 0.650
+               },
+               "whine": "mob.wolf.whine"
+            },
+            "pitch": [
+               0.80,
+               1.20
+            ],
+            "volume": 1.0
+         },
+         "mbl_ts:supply_crate": {
+            "volume": 1.0,
+            "pitch": [
+               1.0,
+               1.0
+            ],
+            "events": {
+               "saddle": "supply.crate.open"
+            }
+         },
+         "mbl_ts:supply_crate_food": {
+            "volume": 1.0,
+            "pitch": [
+               1.0,
+               1.0
+            ],
+            "events": {
+               "saddle": "supply.crate.open"
+            }
+         }
+      }
+   }
+}

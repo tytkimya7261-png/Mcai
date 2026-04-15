@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pas:glock_17_recipe" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " I ",
+      "I I",
+      " I "
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" }
+    },
+    "result": { "item": "pas:glock_17", "count": 1 }
+  }
+}

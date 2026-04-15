@@ -1,0 +1,38 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:slingshot_mega_recipe"
+      },
+      "tags": [
+         "crafting_table"
+      ],
+      "pattern": [
+         "C C",
+         "ABA",
+         " A "
+      ],
+      "key": {
+         "A": {
+            "item": "minecraft:copper_ingot"
+         },
+         "B": {
+            "item": "mbl_ts:aluminium_ingot"
+         },
+         "C": {
+            "item": "minecraft:string"
+         }
+      },
+      "unlock": [
+         {
+            "item": "minecraft:copper_ingot"
+         }
+      ],
+      "result": [
+         {
+            "item": "mbl_ts:slingshot_mega",
+            "count": 1
+         }
+      ]
+   }
+}

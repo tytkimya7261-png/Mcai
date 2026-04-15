@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pas:ammo_338",
+      "category": "Ammunition"
+    },
+    "components": {
+      "minecraft:display_name": { "value": ".338 Lapua Şarjör (10)" },
+      "minecraft:icon": { "texture": "ammo_338" },
+      "minecraft:max_stack_size": 64,
+      "minecraft:tags": { "tags": ["pas:ammunition", "pas:sniper_ammo", "pas:heavy_ammo"] }
+    }
+  }
+}

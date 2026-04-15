@@ -1,0 +1,45 @@
+{
+   "format_version": "1.21.0",
+   "minecraft:entity": {
+      "description": {
+         "identifier": "mbl_ts:backpack_red",
+         "is_spawnable": false,
+         "is_summonable": true
+      },
+      "components": {
+         "minecraft:collision_box": {
+            "height": 0.6,
+            "width": 0.6
+         },
+         "minecraft:inventory": {
+            "container_type": "inventory",
+            "inventory_size": 27
+         },
+         "minecraft:nameable": {
+            "always_show": true,
+            "allow_name_tag_renaming": false
+         },
+         "minecraft:health": {
+            "value": 100,
+            "max": 100
+         },
+         "minecraft:movement.basic": {},
+         "minecraft:movement": {
+            "value": 0.0
+         },
+         "minecraft:navigation.generic": {},
+         "minecraft:damage_sensor": {
+            "triggers": [
+               {
+                  "cause": "all",
+                  "deals_damage": false
+               }
+            ]
+         },
+         "minecraft:physics": {
+            "has_collision": true,
+            "has_gravity": true
+         }
+      }
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "format_version": "1.20.30",
+   "minecraft:recipe_shaped": {
+      "description": {
+         "identifier": "mbl_ts:guidebook_recipe"
+      },
+      "tags": [
+         "crafting_table"
+      ],
+      "pattern": [
+         "A",
+         "B"
+      ],
+      "key": {
+         "A": {
+            "item": "minecraft:book"
+         },
+         "B": {
+            "item": "mbl_ts:rag"
+         }
+      },
+      "unlock": [
+         {
+            "item": "mbl_ts:guidebook"
+         }
+      ],
+      "result": {
+         "item": "mbl_ts:guidebook",
+         "count": 1
+      }
+   }
+}

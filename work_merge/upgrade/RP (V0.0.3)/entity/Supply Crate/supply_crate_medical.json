@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"mbl_ts:supply_crate_medical",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/mobblocks/ts/entity/supply_crate/supply_crate_medical",
+            "dropped":"textures/mobblocks/ts/entity/supply_crate/supply_crate_dropped"
+         },
+         "geometry":{
+            "default":"geometry.supply_crate"
+         },
+         "animations":{
+            "falling":"animation.supply_crate.falling",
+            "supply_smoke_green":"controller.animation.supply_smoke_green"
+         },
+         "scripts":{
+            "animate":[
+               {
+                  "falling": "q.variant == 0"
+               },
+               "supply_smoke_green"
+            ]
+         },
+         "particle_effects":{
+            "supply_smoke_green":"mbl_ts:supply_smoke_green"
+         },
+         "render_controllers":[
+            "controller.render.supply_crate"
+         ]
+      }
+   }
+}

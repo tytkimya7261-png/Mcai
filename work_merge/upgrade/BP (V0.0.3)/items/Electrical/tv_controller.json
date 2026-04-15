@@ -1,0 +1,15 @@
+{
+   "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mbl_ts:tv_controller"
+    },
+      "components": {
+         "minecraft:icon": "tv_controller",
+         "minecraft:display_name": {
+            "value": "item.mbl_ts:tv_controller.name"
+         },
+         "minecraft:max_stack_size": 64
+      }
+   }
+}

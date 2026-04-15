@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pas:ammo_7_62",
+      "category": "Ammunition"
+    },
+    "components": {
+      "minecraft:display_name": { "value": "7.62mm Şarjör (20)" },
+      "minecraft:icon": { "texture": "ammo_7_62" },
+      "minecraft:max_stack_size": 64,
+      "minecraft:tags": { "tags": ["pas:ammunition", "pas:battle_rifle_ammo"] }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+   "format_version": "1.21.40",
+   "minecraft:block": {
+      "description": {
+         "identifier": "mbl_ts:aluminium_block",
+                     "menu_category":{
+            "category":"construction"
+                     }
+         },
+      "components": {
+         "minecraft:loot": "loot_tables/mobblocks/ts/ores/aluminium_block.json",
+         "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 7,
+            "item_specific_speeds": [
+               {
+                  "item": {
+                     "tags": "query.all_tags('minecraft:is_pickaxe') && query.any_tag('minecraft:iron_tier')"
+                  },
+                  "destroy_speed": 0.75
+               },
+               {
+                  "item": {
+                     "tags": "query.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier')"
+                  },
+                  "destroy_speed": 0.5
+               },
+               {
+                  "item": {
+                     "tags": "query.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier')"
+                  },
+                  "destroy_speed": 0.25
+               }
+            ]
+         },
+         "tag:iron_pick_diggable": {},
+         "tag:minecraft:is_pickaxe_item_destructible": {},
+         "minecraft:light_emission": 0,
+         "minecraft:material_instances": {
+            "*": {
+               "texture": "aluminium_block",
+               "render_method": "alpha_test"
+            }
+         },
+         "minecraft:geometry": "geometry.block_generic"
+      }
+   }
+}
